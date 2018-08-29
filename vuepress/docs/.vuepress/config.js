@@ -22,6 +22,7 @@ module.exports = {
         '01_vueSourceCode',
         '02_vuejs',
         '03_wangDoc',
+        '04_mpvue',
         'vuePressNodes'
       ],
       '/': [
