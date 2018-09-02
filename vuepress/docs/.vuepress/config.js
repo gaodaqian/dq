@@ -20,10 +20,15 @@ module.exports = {
       '/home/': [
         '',
         '01_vueSourceCode',
-        '02_vuejs',
-        '03_wangDoc',
-        '04_mpvue',
-        'vuePressNodes'
+        '02_wangDoc',
+        '03_mpvue',
+        '04_vuePressNodes',
+        '05_vueCourse',
+        '06_vueApi',
+        '07_vueRouter',
+        '08_vuex',
+        '09_vueLoader',
+        '10_vueSSR',
       ],
       '/': [
         '',
