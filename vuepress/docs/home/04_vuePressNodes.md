@@ -1,4 +1,4 @@
-# vuePressNodes
+# VuePressNodes
 
 ::: tip
  在docs文件中执行（请确保你的 Node.js 版本 >= 8

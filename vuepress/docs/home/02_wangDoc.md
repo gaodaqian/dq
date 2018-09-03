@@ -1,4 +1,4 @@
-# wangDoc
+# WangDoc
 
 ## TODO
 

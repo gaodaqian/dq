@@ -1,4 +1,4 @@
-# vuejs
+# Vuejs教程
 
 ## 基础
 
@@ -2966,39 +2966,683 @@ var component = new Component() // => "hello from mixin!"
 
 - 选项合并
 
+当组件和混入对象含有同名选项时，这些选项将以恰当的方式混合。
+
+比如，数据对象在内部会进行浅合并，在组件数据冲突以组件数据优先。同名钩子函数将混为一个数组，都被调用。
+
+:::tip
+`Vue.extend()` 也使用同样的策略进行合并。
+:::
+
 - 全局混入
+
+一旦全局混入对象，将会影响所有之后创建的`Vue`实例。
 
 - 自定义选项合并策略
 
+使用默认策略，简单的覆盖已有值。
+
+想要自定义选项以自定义逻辑合并，可以向`Vue.config.optionMergeStrategies`添加一个函数：
+
+```js
+Vue.config.optionMergeStrategies.myOption = function (toVal, fromVal) {
+  // return mergedVal
+}
+```
+
 **自定义指令**：
+
+- 简介
+
+全局自定义指令
+
+```js
+// 注册一个全局自定义指令 `v-focus`
+Vue.directive('focus', {
+  // 当被绑定的元素插入到 DOM 中时……
+  inserted: function (el) {
+    // 聚焦元素
+    el.focus()
+  }
+})
+```
+
+注册局部指令：
+
+```js
+directives: {
+  focus: {
+    // 指令的定义
+    inserted: function (el) {
+      el.focus()
+    }
+  }
+}
+```
+
+然后你可以在模板中任何元素上使用新的 v-focus 属性，如下：
+
+```html
+<input v-focus>
+```
+
+- 钩子函数
+
+一个指令定义对象可以提供如下几个钩子函数（可选）：
+
+1.`bind` 只调用一次，指令第一次绑定到元素时调用。一次性初始化设置。
+
+2.`inserted` 被绑定元素插入父节点时调用。
+
+3.`update`所有组件的 VNode 更新时调用，但是有可能发生在子 VNode 更新之前。
+
+4.`componentUpdate` 指令所在组件的 VNode 及子 VNode 全部更新后调用
+
+5.`unbind` 只调用一次，指令与元素解绑时调用。
+
+- 钩子函数参数
+
+指令钩子函数会被传入以下参数：
+
+1.`el` 指令所绑定的元素，可以直接操作 DOM
+
+2.`binging` 一个对象，包含一下属性：
+
+`name` 指令名，不包括`v-` 前缀
+
+`value`指令绑定值
+
+`oldValue`指令绑定的前一个值
+
+`expression` 字符串形式当指令表达式
+
+`arg`传给指令的参数
+
+`modifiers` 一个包含修饰符的对象
+
+3.`vnode` Vue编译生成的虚拟节点
+
+4.`oldVnode` 上一个虚拟节点
+
+:::tip
+除了 `el` 之外，其它参数都应该是只读的，切勿进行修改。如果需要在钩子之间共享数据，建议通过元素的 `dataset` 来进行。
+:::
+
+- 函数简写
+
+```js
+Vue.directive('color-swatch', function (el, binding) {
+  el.style.backgroundColor = binding.value
+})
+```
+
+- 对象字面量
+
+指令函数能够接受所有合法的`javaSCript`表达式
+
+```html
+<div v-demo="{ color: 'white', text: 'hello!' }"></div>
+```
+
+```js
+Vue.directive('demo', function (el, binding) {
+  console.log(binding.value.color) // => "white"
+  console.log(binding.value.text)  // => "hello!"
+})
+```
 
 **渲染函数 & JSX**：
 
+- 基础
+
+render 函数
+
+- 节点、树以及虚拟 DOM
+
+“DOM 节点”树
+
+HTML 的 DOM 节点树如下图所示：
+
+![ ](./media/dom.png)
+
+虚拟 DOM
+
+Vue 通过建立一个虚拟 DOM 对真实 DOM 发生的变化保持追踪。
+
+```js
+return createElement('h1', this.blogTitle)
+```
+
+`createElement`返回的是什么呢？ 不是一个实际的 DOM 元素。更准备的可能是`createNodeDescription`，会告诉Vue页面需要渲染什么样的节点及子节点。这样的节点称为虚拟节点(virtual Node),简称`VNode`。
+
+“虚拟 DOM”是我们对由 Vue 组件树建立起来的整个 `VNode` 树的称呼。
+
+- createdElement 参数
+
+如何在 `createElement` 函数中生成模板:
+
+```js
+// @returns {VNode}/ @ret
+createElement(
+  // {String | Object | Function}
+  // 一个 HTML 标签字符串，组件选项对象，或者
+  // 解析上述任何一种的一个 async 异步函数，必要参数。
+  'div',
+
+  // {Object}
+  // 一个包含模板相关属性的数据对象
+  // 这样，您可以在 template 中使用这些属性。可选参数。
+  {
+    // (详情见下一节)
+  },
+
+  // {String | Array}
+  // 子节点 (VNodes)，由 `createElement()` 构建而成，
+  // 或使用字符串来生成“文本节点”。可选参数。
+  [
+    '先写一些文字',
+    createElement('h1', '一则头条'),
+    createElement(MyComponent, {
+      props: {
+        someProp: 'foobar'
+      }
+    })
+  ]
+)
+```
+
+- 使用 JavaScript 代替模版功能
+
+`v-if` 和 `v-for`
+
+```html
+<ul v-if="items.length">
+  <li v-for="item in items">{{ item.name }}</li>
+</ul>
+<p v-else>No items found.</p>
+```
+
+这些都会在 render 函数中被 JavaScript 的 if/else 和 map 重写：
+
+```js
+props: ['items'],
+render: function (createElement) {
+  if (this.items.length) {
+    return createElement('ul', this.items.map(function (item) {
+      return createElement('li', item.name)
+    }))
+  } else {
+    return createElement('p', 'No items found.')
+  }
+}
+```
+
+`v-model`
+
+- JSX
+
+Babel 插件，用于在 Vue 中使用 JSX 语法,更接近于模板的语法上。
+
+- 函数式组件
+
+在这个例子中，我们标记组件为 `functional`，这意味它是无状态 (没有响应式数据)，无实例 (没有 this 上下文)。
+
+一个函数式组件就像这样：
+
+```js
+Vue.component('my-component', {
+  functional: true,
+  // Props 可选
+  props: {
+    // ...
+  },
+  // 为了弥补缺少的实例
+  // 提供第二个参数作为上下文
+  render: function (createElement, context) {
+    // ...
+  }
+})
+```
+
+:::tip
+注意：在 2.3.0 之前的版本中，如果一个函数式组件想要接受 `props`，则 `props` 选项是必须的。在 2.3.0 或以上的版本中，你可以省略 `props`选项，所有组件上的属性都会被自动解析为 `props`。
+:::
+
+在 2.5.0 及以上版本中，如果你使用了单文件组件，那么基于模板的函数式组件可以这样声明：
+
+```html
+<template functional>
+</template>
+```
+
+- 模版编译
+
+`Vue` 的模板实际是编译成了 `render` 函数
+
 **插件**：
 
+- 开发插件
+
+插件通常会为 vue 添加全局功能，插件的范围没有限制，一般有下面几种：
+
+1.添加全局方法或者属性，如：`vue-custom-element`
+
+2.添加全局资源：指令/过滤器/过渡等，如：`vue-touch`
+
+3.通过全局 mixin 方法添加一些组件选项，`vue-router`
+
+4.添加 vue 实例方法，通过把它们添加到 `Vue.prototype` 上实现。
+
+5.一个库，提供自己的 API，同时提供上面提到的一个或多个功能，如 `vue-router`
+
+Vue.js的插件应当有一个公开方法 `install`, 这个方法第一个参数是`Vue`构造器，第二个参数是一个可选的选项对象：
+
+```js
+MyPlugin.install = function (Vue, options) {
+  // 1. 添加全局方法或属性
+  Vue.myGlobalMethod = function () {
+    // 逻辑...
+  }
+
+  // 2. 添加全局资源
+  Vue.directive('my-directive', {
+    bind (el, binding, vnode, oldVnode) {
+      // 逻辑...
+    }
+    ...
+  })
+
+  // 3. 注入组件
+  Vue.mixin({
+    created: function () {
+      // 逻辑...
+    }
+    ...
+  })
+
+  // 4. 添加实例方法
+  Vue.prototype.$myMethod = function (methodOptions) {
+    // 逻辑...
+  }
+}
+```
+
+- 使用插件
+
+通过全局方法`vue.use()`使用插件：
+
+```js
+// 调用 `MyPlugin.install(Vue)`
+Vue.use(MyPlugin)
+```
+
+也可以传入一个选项对象：
+
+```js
+Vue.use(MyPlugin, { someOption: true })
+```
+
+:::tip
+`Vue.use` 会自动阻止多次注册相同插件，届时只会注册一次该插件。
+:::
+
 **过滤器**：
+
+过滤器可以用在两个地方：**双花括号插值**和 **`v-bind` 表达式**(后者从 2.1.0+ 开始支持)。
+
+过滤器应该被添加在 JavaScript 表达式的尾部，由“管道”符号指示：
+
+```html
+<!-- 在双花括号中 -->
+{{ message | capitalize }}
+
+<!-- 在 `v-bind` 中 -->
+<div v-bind:id="rawId | formatId"></div>
+```
 
 ## 工具
 
 **生产环境部署**：
 
+- 开启生产环境模式
+
+1.不使用构建工具
+
+`vue.min.js`
+
+2.使用构建工具
+
+使用`webpack`或`Browserify`类似构建工具，Vue 源码会根据 `process.env.NODE_ENV`决定是否启动生产环境模式，默认为开发环境。
+
+`vue-cli` 模板中都预先配置好了
+
+**webpack**:
+
+在 webpack 4+ 中，你可以使用 mode 选项：
+
+```js
+module.exports = {
+  mode: 'production'
+}
+```
+
+但是在 webpack 3 及其更低版本中，你需要使用 DefinePlugin：
+
+```js
+var webpack = require('webpack')
+
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
+  ]
+}
+```
+
+**Browserify**:
+
+- 在运行打包命令时将 `NODE_ENV`设置为`production`. 告诉`vueify`避免加入热重载和开发相关的代码
+
+- 对打包后的文件进行一次全局的 `envify` 转换。使得压缩工具能够清楚掉 Vue 源码中所有的环境变量条件包裹起来的警告语句。例如：
+
+```shell
+NODE_ENV=production browserify -g envify -e main.js | uglifyjs -c -m > build.js
+```
+
+- 或者在 `Gulp`中使用`envify`：
+
+```js
+// 使用 envify 的自定义模块来定制环境变量
+var envify = require('envify/custom')
+
+browserify(browserifyOptions)
+  .transform(vueify)
+  .transform(
+    // 必填项，以处理 node_modules 里的文件
+    { global: true },
+    envify({ NODE_ENV: 'production' })
+  )
+  .bundle()
+```
+
+- 或者配合`Grunt` 和 `grunt-browserify`使用`envify`:
+
+```js
+// 使用 envify 自定义模块指定环境变量
+var envify = require('envify/custom')
+
+browserify: {
+  dist: {
+    options: {
+        // 该函数用来调整 grunt-browserify 的默认指令
+        configure: b => b
+        .transform('vueify')
+        .transform(
+            // 用来处理 `node_modules` 文件
+          { global: true },
+          envify({ NODE_ENV: 'production' })
+        )
+        .bundle()
+    }
+  }
+}
+```
+
+**Rollup**：
+
+使用 `rollup-plugin-replace`：
+
+```js
+const replace = require('rollup-plugin-replace')
+rollup({
+  // ...
+  plugins: [
+    replace({
+      'process.env.NODE_ENV': JSON.stringify( 'production' )
+    })
+  ]
+}).then(...)
+```
+
+- 模版预编译
+
+预编译模板最简单的方式就是使用**单文件组件**
+
+使用 `vue-template-loader`，它也可以在构建过程中把模板文件转换成为 `JavaScript` 渲染函数。
+
+- 提取组件的 css
+
+当使用单文件组件时，组件内的 CSS 会以 `<style>` 标签的方式通过 `JavaScript` 动态注入。这有一些小小的运行时开销，如果你使用服务端渲染，这会导致一段“无样式内容闪烁 (fouc)”。将所有组件的 CSS 提取到同一个文件可以避免这个问题，也会让 CSS 更好地进行压缩和缓存。
+
+1.webpack + vue-loader (vue-cli 的 webpack 模板已经预先配置好)
+
+2.Browserify + vueify
+
+3.Rollup + rollup-plugin-vue
+
+- 跟踪运行时错误
+
+如果在组件渲染时出现运行错误，错误将会被传递至全局 `Vue.config.errorHandler` 配置函数 (如果已设置)
+
 **单文件组件**：
+
+- 介绍
+
+单文件组件可以使用 webpack 或 Browserify 等构建工具。支持完整语法高亮、CommonJS 模块、组件作用域的 CSS。
+
+关注点分离不等于文件类型分离。在一个组件里，其模板、逻辑和样式是内部耦合的，并且把他们搭配在一起实际上使得组件更加内聚且更可维护。
 
 **单元测试**：
 
+- 配置和工具
+
+可以使用 `Karma` 进行自动化测试
+
+- 简单的断言
+
+你不必为了可测性在组件中做任何特殊的操作，导出原始设置就可以了
+
+- 编写可被测试的组件
+
+很多组件的渲染输出由它的 `props` 决定。事实上，如果一个组件的渲染输出完全取决于它的 `props`，那么它会让测试变得简单
+
+- 断言异步更新
+
+由于 Vue 进行 异步更新 DOM 的情况，一些依赖 DOM 更新结果的断言必须在 `Vue.nextTick` 回调中进行
+
 **TypeScript支持**：
+
+- 发布为 NPM 包的官方声明文件
+
+- 推荐配置
+
+```js
+// tsconfig.json
+{
+  "compilerOptions": {
+    // 与 Vue 的浏览器支持保持一致
+    "target": "es5",
+    // 这可以对 `this` 上的数据属性进行更严格的推断
+    "strict": true,
+    // 如果使用 webpack 2+ 或 rollup，可以利用 tree-shake:
+    "module": "es2015",
+    "moduleResolution": "node"
+  }
+}
+```
+
+:::tip
+注意你需要引入 `strict: true` (或者至少 `noImplicitThis: true`，这是 strict 模式的一部分) 以利用组件方法中 this 的类型检查，否则它会始终被看作 any 类型。
+:::
+
+- 开发工具链
+
+Vue CLI 3 可以使用 TypeScript 生成新工程。创建方式：
+
+```shell
+# 1. 如果没有安装 Vue CLI 就先安装
+npm install --global @vue/cli
+
+# 2. 创建一个新工程，并选择 "Manually select features (手动选择特性)" 选项
+vue create my-project-name
+```
+
+`Visual Studio Code`，它为 `TypeScript` 提供了极好的“开箱即用”支持,如果你正在使用单文件组件 (SFC), 可以安装提供 SFC 支持以及其他更多实用功能的 `Vetur` 插件。
+
+- 基本用法
+
+要让 `TypeScript` 正确推断 `Vue` 组件选项中的类型，您需要使用 `Vue.component` 或 `Vue.extend` 定义组件：
+
+```js
+import Vue from 'vue'
+const Component = Vue.extend({
+  // 类型推断已启用
+})
+
+const Component = {
+  // 这里不会有类型推断，
+  // 因为TypeScript不能确认这是Vue组件的选项
+}
+```
+
+- 基于类的 vue 组件
+
+可以使用官方维护的 `vue-class-component` 装饰器
+
+- 增常类型以配合插件使用
+
+`TypeScript` 有一个特性来补充现有的类型，叫做**模块补充 (module augmentation)**。
+
+例如，声明一个 `string` 类型的实例属性 `$myProperty`：
+
+```js
+// 1. 确保在声明补充的类型之前导入 'vue'
+import Vue from 'vue'
+
+// 2. 定制一个文件，设置你想要补充的类型
+//    在 types/vue.d.ts 里 Vue 有构造函数类型
+declare module 'vue/types/vue' {
+// 3. 声明为 Vue 补充的东西
+  interface Vue {
+    $myProperty: string
+  }
+}
+```
+
+可以在 `Vue` 实例上使用 `$myProperty`:
+
+```js
+var vm = new Vue()
+console.log(vm.$myProperty) // 将会顺利编译通过
+```
+
+- 标注返回值
+
+你可能需要在 `render` 或 `computed` 里的方法上标注返回值。使用 `--noImplicitAny` 选项将会帮助你找到这些未标注的方法。
 
 ## 模块化
 
 **路由**：
 
+- 官方路由
+
+官方支持的 `vue-router` 库
+
+- 从零开始简单的路由
+
+- 整合第三方路由
+
 **状态管理**：
 
+- 类 Flux 状态管理的官方实现
+
+由于状态零散的分布在组件和组件之间的交互中，Vue 提供了 vuex，vuex 甚至集成到 `vue-devtools`
+
+- 简单状态管理起步使用
+
+应用中的任何部分，在任何数据改变后，都不会留下变更过的记录。
+
+为了解决这个问题，我们采用一个简单的 `store` 模式：
+
+```js
+var store = {
+  debug: true,
+  state: {
+    message: 'Hello!'
+  },
+  setMessageAction (newValue) {
+    if (this.debug) console.log('setMessageAction triggered with', newValue)
+    this.state.message = newValue
+  },
+  clearMessageAction () {
+    if (this.debug) console.log('clearMessageAction triggered')
+    this.state.message = ''
+  }
+}
+```
+
+![ ](./media/store.png)
+
+:::tip
+重要的是，注意你不应该在 `action` 中 替换原始的状态对象 - 组件和 `store` 需要引用同一个共享对象，`mutation` 才能够被观察
+:::
+
+组件不允许直接修改属于`store`实例的 `state`，而是执行 `action`来分发（ `dispatch`）事件通知 `store`去改变。
+
 **服务端渲染**：
+
+- SSR 完全指南
+
+- Nuxt.js
 
 ## 内在
 
 **深入响应式原理**：
+
+- 如何追踪变化
+
+把一个普通的 JavaScript 对象传给 vue 实例的 `data` 选项，Vue 将遍历此对象所有的属性，并使用 `Object.defineProperty` 把这些属性全部转为 `getter/setter`。
+
+`Object.defineProperty` 是 ES5 的特性，所以 vue 不支持 IE8及以下版本
+
+每个组件实例都有相应的 `watcher` 实例对象，它会在组件渲染过程中把属性记录为依赖，当依赖项 `setter` 被调用时，会通知 `watcher` 重新计算，从而致使关联的组件更新。
+
+![ ](./media/getter.png)
+
+- 检测变化的注意事项
+
+受现代 JavaScript 的限制 (以及废弃 Object.observe)，Vue 不能检测到对象属性的添加或删除。
+
+Vue **不允许在已经创建的实例上动态添加新的根级响应式属性**
+
+可以使用 `Vue.set(object, key, value)` 方法将响应属性添加到嵌套的对象上
+
+可以使用 `vm.$set` 实例方法，这也是全局 `Vue.set` 方法的别名
+
+- 声明响应式属性
+
+由于 Vue 不允许动态添加根级响应式属性，所以你必须在初始化实例前声明根级响应式属性，哪怕只是一个空值：
+
+```js
+var vm = new Vue({
+  data: {
+    // 声明 message 为一个空值字符串
+    message: ''
+  },
+  template: '<div>{{ message }}</div>'
+})
+// 之后设置 `message`
+vm.message = 'Hello!'
+```
+
+- 异步更新队列
+
+Vue 异步执行 DOM 更新,只要观察到数据变化，Vue 将开启一个队列，**在下一个事件循环`tick`中，Vue 刷新**队列并执行实际工作。
+
+为了在数据变化之后等待 Vue 完成更新 DOM ，可以在数据变化之后立即使用 `Vue.nextTick(callback)`
 
 ## 迁移
 
