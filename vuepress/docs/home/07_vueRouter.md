@@ -4,7 +4,7 @@
 
 ### 直接下载
 
-https://unpkg.com/vue-router/dist/vue-router.js
+`https://unpkg.com/vue-router/dist/vue-router.js`
 
 Unpkg.com 提供了基于 NPM 的 CDN 链接。
 
@@ -587,7 +587,7 @@ const router = new VueRouter({
 
 结合 `Vue` 的异步组件和 `Webpack` 的代码分割功能，轻松实现路由组件的懒加载。
 
-首先，可以将异步组件定义为返回一个 Promise 的工厂函数 
+首先，可以将异步组件定义为返回一个 Promise 的工厂函数
 
 ```js
 const Foo = () => Promise.resolve({ /* 组件定义对象 */ })

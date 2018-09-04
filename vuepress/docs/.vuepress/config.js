@@ -32,6 +32,7 @@ module.exports = {
         '11_vueSSR',
         '12_vueSSRApi',
         '13_vueLoader',
+        '14_vueMucic',
       ],
       '/': [
         '',
