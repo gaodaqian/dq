@@ -43,3 +43,14 @@ https://github.com/webmodules/jsonp
 ```
 
 ## 浏览器刷新 17 毫秒一次
+
+## vue-lazyload
+
+`https://github.com/hilongjw/vue-lazyload`
+
+## click冲突问题(scroll)
+
+```css
+//添加 class
+class="needsclick"
+```
