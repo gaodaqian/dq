@@ -1,5 +1,5 @@
 <template>
-  <div class="recommend">
+  <div class="recommend" ref="recommend">
     <scroll ref="scroll" class="recommend-content" :data="disclist">
       <div>
         <div v-if="recommends.length" class="slider-wrapper">
@@ -14,7 +14,7 @@
         <div class="recommend-list">
           <h1 class="list-title">热门歌单推荐</h1>
           <ul>
-            <li v-for="(item,index) in disclist" :key="index" class="item">
+            <li @click="selectItem(item)" v-for="(item,index) in disclist" :key="index" class="item">
               <div class="icon">
                 <img v-lazy="item.imgurl" alt="" width="60" height="60">
               </div>
@@ -30,6 +30,7 @@
         <loading></loading>
       </div>
     </scroll>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -37,9 +38,10 @@
 import Slider from 'base/slider/slider'
 import Scroll from 'base/scroll/scroll'
 import Loading from 'base/loading/loading'
-
 import { getRecommend } from 'api/recommend'
 import { ERR_OK } from 'api/config'
+import { playListMixin } from 'common/js/mixin'
+import {mapMutations} from 'vuex'
 
 export default {
   data() {
@@ -48,6 +50,7 @@ export default {
       disclist: []
     }
   },
+  mixins: [playListMixin],
   components: {
     Slider,
     Scroll,
@@ -58,6 +61,17 @@ export default {
     this._getDiscList()
   },
   methods: {
+    selectItem(item) {
+      this.$router.push({
+        path: `/recommend/${item.dissid}`
+      })
+      this.setDisc(item)
+    },
+    handlePlayList(playlist) {
+      const bottom = playlist.length > 0 ? '60px' : ''
+      this.$refs.recommend.style.bottom = bottom
+      this.$refs.scroll.refresh()
+    },
     _getRecommend() {
       getRecommend().then(res => {
         if (res.code === ERR_OK) {
@@ -75,8 +89,12 @@ export default {
       //   console.log('===', res.data)
       // })
       // getDiscList().then((res) => {
-      //   console.log('===', res)
-      //   if (res.code === ERR_OK) {}
+      //   if (res.code === ERR_OK) {
+      //     console.log('推荐:', res)
+      //     this.discList = res.data.list
+      //   } else {
+      //     console.log('没,没有推荐')
+      //   }
       // })
     },
     loadImage() {
@@ -84,7 +102,10 @@ export default {
         this.$refs.scroll.refresh()
         this.checkLoaded = true
       }
-    }
+    },
+    ...mapMutations({
+      setDisc: 'SET_DISC'
+    })
   }
 }
 </script>

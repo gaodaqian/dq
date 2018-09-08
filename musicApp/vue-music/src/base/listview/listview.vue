@@ -83,6 +83,9 @@ export default {
 
       this._scrollTo(anchorIndex)
     },
+    refresh() {
+      this.$refs.listview.refresh()
+    },
     _calculateHeight() {
       this.listHeight = []
       const list = this.$refs.listGroup

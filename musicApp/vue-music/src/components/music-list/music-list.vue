@@ -16,7 +16,7 @@
     <div class="bg-layer" ref="layer"></div>
     <scroll @scroll="scroll" :probe-type="probeType" :listen-scroll="listenScroll" :data="songs" class="list" ref="list">
       <div class="song-list-wrapper">
-        <song-list :songs="songs" @select="selectItem"></song-list>
+        <song-list :rank="rank" :songs="songs" @select="selectItem"></song-list>
       </div>
       <div class="loading-container" v-show="!songs.length">
         <loading></loading>
@@ -30,7 +30,8 @@ import Scroll from 'base/scroll/scroll'
 import SongList from 'base/song-list/song-list'
 import { prefixStyle } from 'common/js/dom'
 import Loading from 'base/loading/loading'
-import {mapActions} from 'vuex'
+import { mapActions } from 'vuex'
+import { playListMixin } from 'common/js/mixin'
 
 const RESERVED_HEIGHT = 40
 const transform = prefixStyle('transform')
@@ -42,6 +43,7 @@ export default {
       scrollY: 0
     }
   },
+  mixins: [playListMixin],
   components: {
     Scroll,
     SongList,
@@ -51,6 +53,10 @@ export default {
     bgImage: {
       type: String,
       default: ''
+    },
+    rank: {
+      type: Boolean,
+      default: false
     },
     songs: {
       type: Array,
@@ -111,6 +117,11 @@ export default {
         list: this.songs,
         index
       })
+    },
+    handlePlayList(playlist) {
+      const bottom = playlist.length > 0 ? '60px' : ''
+      this.$refs.list.$el.style.bottom = bottom
+      this.$refs.list.refresh()
     },
     scroll(pos) {
       this.scrollY = pos.y

@@ -9,6 +9,13 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
+//dev-server
+const express = require('express')
+const app = express()//请求server
+const axios = require('axios')
+const apiRoutes = express.Router()
+app.use('/api', apiRoutes)//通过路由请求数据
+
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
@@ -42,6 +49,53 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     quiet: true, // necessary for FriendlyErrorsPlugin
     watchOptions: {
       poll: config.dev.poll,
+    },
+    before(app) {
+      app.get('/api/getDiscList', function (req, res) {
+        const url = 'https://c.y.qq.com/splcloud/fcgi-bin/fcg_get_diss_by_tag.fcg'
+        axios.get(url, {
+          headers: {
+            referer: 'https://c.y.qq.com/',
+            host: 'c.y.qq.com'
+          },
+          params: req.query
+        }).then((response) => {
+          res.json(response.data)
+        }).catch((e) => {
+          console.log(e)
+        })
+      }
+      ),
+        app.get('/api/lyric', (req, res) => {
+          const url = 'https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg'
+          axios.get(url, {
+            header: {
+              referer: 'https://c.y.qq.com/',
+              host: 'c.y.qq.com'
+            },
+            params: req.query
+          }).then((response) => {
+            console.log('response', response)
+            res.json(response.data)
+          }).catch((e) => {
+            console.log(e)
+          })
+        }),
+        // app.get('/api/getSongList', function (req, res) {
+        //   const url = 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg'
+        //   axios.get(url, {
+        //     headers: {
+        //       referer: 'https://c.y.qq.com/',
+        //       host: 'c.y.qq.com'
+        //     },
+        //     params: req.query
+        //   }).then((response) => {
+        //     res.json(response.data)
+        //   }).catch((e) => {
+        //     console.log(e)
+        //   })
+        // }
+        // )
     }
   },
   plugins: [
@@ -85,8 +139,8 @@ module.exports = new Promise((resolve, reject) => {
           messages: [`Your application is running here: http://${devWebpackConfig.devServer.host}:${port}`],
         },
         onErrors: config.dev.notifyOnErrors
-        ? utils.createNotifierCallback()
-        : undefined
+          ? utils.createNotifierCallback()
+          : undefined
       }))
 
       resolve(devWebpackConfig)
