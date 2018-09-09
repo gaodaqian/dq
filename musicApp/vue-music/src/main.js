@@ -9,7 +9,7 @@ import VueLazyload from 'vue-lazyload'
 
 import 'common/stylus/index.styl'
 
-Vue.prototype.axios = axios
+Vue.prototype.$axios = axios
 Vue.config.productionTip = false
 
 Vue.use(VueLazyload, {

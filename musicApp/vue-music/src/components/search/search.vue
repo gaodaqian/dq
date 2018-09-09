@@ -1,17 +1,124 @@
 <template>
   <div class="search">
     <div class="search-box-wrapper">
-      <search-box></search-box>
+      <search-box ref="searchBox" @query="onQueryChange"></search-box>
     </div>
+    <div class="shortcut-wrapper" ref="shortcutWrapper" v-show="!query">
+      <scroll class="shortcut" :data="shortcut" ref="shortcut">
+        <div>
+          <div class="hot-key">
+            <h1 class="title">热门搜索</h1>
+            <ul>
+              <li @click="addQuery(item.k)" class="item" v-for="(item,index) in hotKey" :key="index">
+                <span>{{item.k}}</span>
+              </li>
+            </ul>
+          </div>
+          <div class="search-history" v-show="searchHistory.length">
+            <h1 class="title">
+              <span class="text">搜索历史</span>
+              <span class="clear" @click="deleteAll">
+                <i class="icon-clear"></i>
+              </span>
+            </h1>
+            <search-list :searches="searchHistory" @select="addQuery" @delete="deleteOne"></search-list>
+          </div>
+        </div>
+      </scroll>
+    </div>
+    <div class="search-result" ref="searchResult" v-show="query">
+      <suggest ref="suggest" :query="query" @listScroll="blurInput" @select="saveSearch"></suggest>
+    </div>
+    <confirm ref="confirm" text="是否清空搜索历史" confirmBtnText="清空" @confirm="clearSearchHistory"></confirm>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import SearchBox from 'base/search-box/search-box'
+import { getHotKey } from 'api/search'
+import { ERR_OK } from 'api/config'
+import Suggest from 'components/suggest/suggest'
+import { mapActions, mapGetters } from 'vuex'
+import SearchList from 'base/search-list/search-list'
+import Confirm from 'base/confirm/confirm'
+import Scroll from 'base/scroll/scroll'
+import { playListMixin } from 'common/js/mixin'
 
 export default {
+  data() {
+    return {
+      hotKey: [],
+      query: ''
+    }
+  },
+  mixins: [playListMixin],
+  created() {
+    this._getHotKey()
+  },
+  computed: {
+    ...mapGetters(['searchHistory']),
+    shortcut() {
+      return this.hotKey.concat(this.searchHistory)
+    }
+  },
+  watch: {
+    query(newQuery) {
+      if (!newQuery) {
+        setTimeout(() => {
+          this.$refs.shortcut.refresh()
+        }, 20)
+      }
+    }
+  },
+  methods: {
+    ...mapActions([
+      'saveSearchHistory',
+      'deleteSearchHistory',
+      'clearSearchHistory'
+    ]),
+    handlePlayList(playlist) {
+      const bottom = playlist.length > 0 ? '60px' : ''
+      this.$refs.shortcutWrapper.style.bottom = bottom
+      this.$refs.shortcut.refresh()
+      this.$refs.searchResult.style.bottom = bottom
+      this.$refs.suggest.refresh()
+    },
+    saveSearch() {
+      this.saveSearchHistory(this.query)
+    },
+    deleteOne(item) {
+      this.deleteSearchHistory(item)
+    },
+    deleteAll() {
+      // show confirm
+      this.$refs.confirm.show()
+      // this.clearSearchHistory()
+    },
+    blurInput() {
+      // 子组件 blur
+      this.$refs.searchBox.blur()
+    },
+    onQueryChange(query) {
+      this.query = query
+    },
+    addQuery(query) {
+      this.$refs.searchBox.setQuery(query)
+    },
+    _getHotKey() {
+      getHotKey().then(res => {
+        if (res.code === ERR_OK) {
+          this.hotKey = res.data.hotkey.slice(0, 10)
+        }
+      })
+    }
+  },
   components: {
-    SearchBox
+    SearchBox,
+    Suggest,
+    SearchList,
+    Confirm,
+    Scroll
   }
 }
 </script>

@@ -54,3 +54,13 @@ https://github.com/webmodules/jsonp
 //添加 class
 class="needsclick"
 ```
+
+## 搜索
+
+### 搜索历史 根据localstorage searchHistory 是否展示
+
+- 点 x 拉家桶 清空本地存储 vuex数据
+
+mapMutations methods
+
+mapGetters computed

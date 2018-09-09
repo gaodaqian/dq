@@ -80,14 +80,11 @@ export default {
       })
     },
     _getDiscList() {
-      this.axios.get('http://localhost:8080/static/list.json').then(res => {
+      this.$axios.get('http://localhost:8080/static/list.json').then(res => {
         if (res.data.code === ERR_OK) {
           this.disclist = res.data.data.list
         }
       })
-      // this.axios.get('/api').then(res => {
-      //   console.log('===', res.data)
-      // })
       // getDiscList().then((res) => {
       //   if (res.code === ERR_OK) {
       //     console.log('推荐:', res)
