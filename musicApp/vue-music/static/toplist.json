@@ -1,0 +1,346 @@
+{
+  "code": 0,
+  "subcode": 0,
+  "message": "",
+  "default": 0,
+  "data": {
+    "topList": [
+      {
+        "id": 4,
+        "listenCount": 19600000,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_4_300_216514336.jpg",
+        "songList": [
+          {
+            "singername": "薛之谦",
+            "songname": "违背的青春"
+          },
+          {
+            "singername": "张艺兴",
+            "songname": "Sheep (Alan Walker Relift)"
+          },
+          {
+            "singername": "莫文蔚",
+            "songname": "慢慢喜欢你"
+          }
+        ],
+        "topTitle": "巅峰榜·流行指数",
+        "type": 0
+      },
+      {
+        "id": 26,
+        "listenCount": 19100000,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_26_300_109005773.jpg",
+        "songList": [
+          {
+            "singername": "Olly Murs",
+            "songname": "That Girl"
+          },
+          {
+            "singername": "ONER",
+            "songname": "过敏（ALLERGY）"
+          },
+          {
+            "singername": "张艺兴",
+            "songname": "Sheep (Alan Walker Relift)"
+          }
+        ],
+        "topTitle": "巅峰榜·热歌",
+        "type": 0
+      },
+      {
+        "id": 27,
+        "listenCount": 13592660,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_27_300_216514336.jpg",
+        "songList": [
+          {
+            "singername": "薛之谦",
+            "songname": "违背的青春"
+          },
+          {
+            "singername": "ONER",
+            "songname": "过敏（ALLERGY）"
+          },
+          {
+            "singername": "张艺兴",
+            "songname": "Sheep (Alan Walker Relift)"
+          }
+        ],
+        "topTitle": "巅峰榜·新歌",
+        "type": 0
+      },
+      {
+        "id": 54,
+        "listenCount": 7734600,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_54_300_216502277.jpg",
+        "songList": [
+          {
+            "singername": "田燚",
+            "songname": "性别 (Live)"
+          },
+          {
+            "singername": "尹清",
+            "songname": "我还年轻 我还年轻 (Live)"
+          },
+          {
+            "singername": "蔡维泽",
+            "songname": "流离的时间与流离的你 (Live)"
+          }
+        ],
+        "topTitle": "勇闯天涯·巅峰榜·明日之子",
+        "type": 0
+      },
+      {
+        "id": 55,
+        "listenCount": 9400000,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_55_300_216080561.jpg",
+        "songList": [
+          {
+            "singername": "王以太",
+            "songname": "目不转睛 (Live)"
+          },
+          {
+            "singername": "那吾克热LIL-EM",
+            "songname": "漂 Part II (Live)"
+          },
+          {
+            "singername": "艾热",
+            "songname": "星球坠落 (Live)"
+          }
+        ],
+        "topTitle": "江小白YOLO·巅峰榜·中国新说唱",
+        "type": 0
+      },
+      {
+        "id": 56,
+        "listenCount": 9400000,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_56_300_216020559.jpg",
+        "songList": [
+          {
+            "singername": "康树龙",
+            "songname": "魔鬼中的天使 (醇享版)"
+          },
+          {
+            "singername": "赵家豪gary",
+            "songname": "慢慢喜欢你 (醇享版)"
+          },
+          {
+            "singername": "宿涵",
+            "songname": "黄金甲 + 将军 + 千年之恋 (Live)"
+          }
+        ],
+        "topTitle": "巅峰榜·2018中国好声音",
+        "type": 0
+      },
+      {
+        "id": 28,
+        "listenCount": 19700000,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_28_300_213958134.jpg",
+        "songList": [
+          {
+            "singername": "张紫豪",
+            "songname": "可不可以"
+          },
+          {
+            "singername": "六哲",
+            "songname": "若是情长"
+          },
+          {
+            "singername": "九局",
+            "songname": "我已经爱上你"
+          }
+        ],
+        "topTitle": "巅峰榜·网络歌曲",
+        "type": 0
+      },
+      {
+        "id": 5,
+        "listenCount": 3800420,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_5_300_216514336.jpg",
+        "songList": [
+          {
+            "singername": "薛之谦",
+            "songname": "违背的青春"
+          },
+          {
+            "singername": "张艺兴",
+            "songname": "Sheep (Alan Walker Relift)"
+          },
+          {
+            "singername": "ONER",
+            "songname": "过敏（ALLERGY）"
+          }
+        ],
+        "topTitle": "巅峰榜·内地",
+        "type": 0
+      },
+      {
+        "id": 6,
+        "listenCount": 5234820,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_6_300_215540451.jpg",
+        "songList": [
+          {
+            "singername": "G.E.M. 邓紫棋",
+            "songname": "倒数"
+          },
+          {
+            "singername": "JC陈泳彤",
+            "songname": "说散就散 (醇享版)"
+          },
+          {
+            "singername": "陈奕迅",
+            "songname": "可一可再"
+          }
+        ],
+        "topTitle": "巅峰榜·港台",
+        "type": 0
+      },
+      {
+        "id": 3,
+        "listenCount": 9400000,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_3_300_214956931.jpg",
+        "songList": [
+          {
+            "singername": "Alan Walker",
+            "songname": "Darkside"
+          },
+          {
+            "singername": "Jessie J",
+            "songname": "Love Will Save The World"
+          },
+          {
+            "singername": "Why Don't We",
+            "songname": "8 Letters"
+          }
+        ],
+        "topTitle": "巅峰榜·欧美",
+        "type": 0
+      },
+      {
+        "id": 16,
+        "listenCount": 6037520,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_16_300_216112973.jpg",
+        "songList": [
+          {
+            "singername": "세븐틴 (SEVENTEEN)",
+            "songname": "怎么办 (Oh My!) (Chinese version)"
+          },
+          {
+            "singername": "백현 (伯贤)",
+            "songname": "YOUNG"
+          },
+          {
+            "singername": "(여자)아이들 ((女)孩子们)",
+            "songname": "한 (一)"
+          }
+        ],
+        "topTitle": "巅峰榜·韩国",
+        "type": 0
+      },
+      {
+        "id": 29,
+        "listenCount": 4746440,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_29_300_216327728.jpg",
+        "songList": [
+          {
+            "singername": "华晨宇",
+            "songname": "寒鸦少年"
+          },
+          {
+            "singername": "火箭少女101",
+            "songname": "卡路里"
+          },
+          {
+            "singername": "陆虎",
+            "songname": "雪落下的声音"
+          }
+        ],
+        "topTitle": "巅峰榜·影视金曲",
+        "type": 0
+      },
+      {
+        "id": 17,
+        "listenCount": 1495786,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_17_300_216376475.jpg",
+        "songList": [
+          {
+            "singername": "久石譲 (Joe Hisaishi)",
+            "songname": "この世界の片隅に 〜メインテーマ〜 (在这世界的角落〜主题曲〜)"
+          },
+          {
+            "singername": "大塚愛 (おおつか あい)",
+            "songname": "ドラセナ (龙血树)"
+          },
+          {
+            "singername": "末吉秀太",
+            "songname": "Over \"Quartzer\" (TV OP Version)"
+          }
+        ],
+        "topTitle": "巅峰榜·日本",
+        "type": 0
+      },
+      {
+        "id": 201,
+        "listenCount": 169840,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150127163830.jpg",
+        "songList": [
+          {
+            "singername": "杨紫",
+            "songname": "天地无霜"
+          },
+          {
+            "singername": "张艺兴",
+            "songname": "Sheep"
+          },
+          {
+            "singername": "蔡徐坤",
+            "songname": "Pull Up"
+          }
+        ],
+        "topTitle": "巅峰榜·MV",
+        "type": 0
+      },
+      {
+        "id": 52,
+        "listenCount": 1368605,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_52_300_215970776.jpg",
+        "songList": [
+          {
+            "singername": "一棵小葱",
+            "songname": "柳岸旁"
+          },
+          {
+            "singername": "莉莉童 (LIJIN.)",
+            "songname": "Tasting Syrup (Live)"
+          },
+          {
+            "singername": "周延英（英子-effie）",
+            "songname": "无风的等候"
+          }
+        ],
+        "topTitle": "巅峰榜·腾讯音乐人原创榜",
+        "type": 0
+      },
+      {
+        "id": 36,
+        "listenCount": 2801980,
+        "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_36_300_200732018.jpg",
+        "songList": [
+          {
+            "singername": "胡赟兆",
+            "songname": "啷个哩个啷"
+          },
+          {
+            "singername": "冯鑫",
+            "songname": "成都"
+          },
+          {
+            "singername": "武勇",
+            "songname": "一次就好"
+          }
+        ],
+        "topTitle": "巅峰榜·K歌金曲",
+        "type": 0
+      }
+    ]
+  }
+}

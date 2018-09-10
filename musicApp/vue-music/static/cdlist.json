@@ -1,0 +1,3269 @@
+{
+  "code": 0,
+  "subcode": 0,
+  "accessed_plaza_cache": 1,
+  "accessed_favbase": 1,
+  "login": "on**",
+  "cdnum": 1,
+  "cdlist": [
+    {
+      "disstid": "4571471828",
+      "dirid": 873,
+      "coveradurl": "",
+      "dissid": 4571471,
+      "login": "on**",
+      "uin": "oi4sowEsoiC57c**",
+      "encrypt_uin": "oi4sowEsoiC57c**",
+      "owndir": 0,
+      "dissname": "每日新歌：BTOB陆星材感性抒情曲",
+      "logo": "http://p.qpic.cn/music_cover/PiajxSqBRaEKbjFyR0JMcwTJW4xGllcDsSw2BugtyyJhNzibjFvbVf5A/300?n=1",
+      "pic_mid": "",
+      "album_pic_mid": "",
+      "pic_dpi": 300,
+      "isAd": 0,
+      "desc": "BTOB陆星材感性抒情曲，维塔斯迷幻新单突破你的想象，周洁琼电子舞曲上线，搭乘南征北战午夜的列车寻找希望，牛奶咖啡甜蜜恋爱歌为寻找爱情的你加油，小乔携手罗宾上线清新新单，薛之谦感叹逝去的青春年华，相同的主题，更深的感悟，在这张最新鲜的歌单里，我们为你挑选了每日高品质新歌。",
+      "ctime": 1536289808,
+      "mtime": 0,
+      "headurl": "http://y.gtimg.cn/music/common/upload/t_taoge_mingren/51431.jpg",
+      "ifpicurl": "https://y.gtimg.cn/music/common/upload/t_cm3_photo_publish/114042.png",
+      "nick": "QQ音乐新歌推荐",
+      "nickname": "QQ音乐新歌推荐",
+      "type": 2,
+      "singerid": 0,
+      "singermid": "",
+      "isvip": 1,
+      "isdj": 0,
+      "tags": [
+        {
+          "id": 168,
+          "name": "韩语",
+          "pid": 168
+        }
+      ],
+      "songnum": 58,
+      "songids": "216802628,216975106,216976258,216870209,216985210,216985206,216719236,216884619,216741301,216979720,216979724,215937752,216690637,216977735,216977733,216968746,216499170,216977586,216977592,216759591,216672304,216976667,216976669,216804620,216978272,216683346,216985250,216764607,214016015,216979642,216979643,216741149,216713486,216832496,216832494,216499232,216671179,216327916,216842307,216305139,216865230,216799679,215993109,216974830,216979010,216979008,216969614,216975188,216976329,216707794,216978220,216748224,216921740,216710196,216764576,216768776,216829879,216527577",
+      "songtypes": "13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13",
+      "disstype": 0,
+      "dir_pic_url2": "",
+      "song_update_time": 0,
+      "song_update_num": 0,
+      "total_song_num": 58,
+      "song_begin": 0,
+      "cur_song_num": 58,
+      "songlist": [
+        {
+          "albumdesc": "Prod. by 박근태",
+          "albumid": 4558741,
+          "albummid": "004gXmRA1IOEl6",
+          "albumname": "Your BGM Vol.2",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 206,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 941522,
+              "mid": "002pFkIZ1Xd07Z",
+              "name": "육성재 (陆星材)"
+            }
+          ],
+          "size128": 3303793,
+          "size320": 8258783,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 22264265,
+          "sizeogg": 4368827,
+          "songid": 216802628,
+          "songmid": "0049CXJO14mORm",
+          "songname": "고백 (Confession)",
+          "songorig": "고백",
+          "songtype": 0,
+          "strMediaMid": "0049CXJO14mORm",
+          "stream": 1,
+          "switch": 17413891,
+          "type": 0,
+          "vid": "b0027qlwnu4"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4584889,
+          "albummid": "002NEAhn3CVM8V",
+          "albumname": "最好",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 258,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 944274,
+              "mid": "004coWV04C5FCV",
+              "name": "杨洋"
+            }
+          ],
+          "size128": 4141745,
+          "size320": 10354008,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 51768117,
+          "sizeogg": 5474956,
+          "songid": 216975106,
+          "songmid": "004TuckM3z6kQ8",
+          "songname": "最好",
+          "songorig": "最好",
+          "songtype": 0,
+          "strMediaMid": "004TuckM3z6kQ8",
+          "stream": 9,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "《阿尔法：狼伴归途》电影中国区推广曲",
+          "albumid": 4585055,
+          "albummid": "0034F3G900KwBK",
+          "albumname": "探险家",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 225,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2241311,
+              "mid": "001Iu4Dv1NzRCD",
+              "name": "摩登兄弟刘宇宁"
+            }
+          ],
+          "size128": 3610951,
+          "size320": 9027075,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 52727719,
+          "sizeogg": 5517243,
+          "songid": 216976258,
+          "songmid": "001a7ADx2ML4O1",
+          "songname": "探险家",
+          "songorig": "探险家",
+          "songtype": 0,
+          "strMediaMid": "001a7ADx2ML4O1",
+          "stream": 5,
+          "switch": 17413891,
+          "type": 0,
+          "vid": "q0027tjd1b5"
+        },
+        {
+          "albumdesc": "QQ飞车手游敦煌版本主题曲",
+          "albumid": 4568928,
+          "albummid": "002xKQID0dkNV5",
+          "albumname": "飞驰于你",
+          "alertid": 11,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 244,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 7221,
+              "mid": "000CK5xN3yZDJt",
+              "name": "许嵩"
+            }
+          ],
+          "size128": 3907278,
+          "size320": 9767902,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 31200420,
+          "sizeogg": 5891764,
+          "songid": 216870209,
+          "songmid": "001OIKN7112tGq",
+          "songname": "飞驰于你",
+          "songorig": "飞驰于你",
+          "songtype": 0,
+          "strMediaMid": "001OIKN7112tGq",
+          "stream": 8,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4586514,
+          "albummid": "004eyz4z4NApkE",
+          "albumname": "中国新说唱 第9期",
+          "alertid": 11,
+          "belongCD": 6,
+          "cdIdx": 0,
+          "interval": 219,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 945829,
+              "mid": "003bef6M1N89Fe",
+              "name": "那吾克热LIL-EM"
+            }
+          ],
+          "size128": 3519050,
+          "size320": 8797232,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 49450154,
+          "sizeogg": 4954884,
+          "songid": 216985210,
+          "songmid": "0036RaGu3Gpg96",
+          "songname": "四季 (Live)",
+          "songorig": "四季",
+          "songtype": 0,
+          "strMediaMid": "0036RaGu3Gpg96",
+          "stream": 4,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4586514,
+          "albummid": "004eyz4z4NApkE",
+          "albumname": "中国新说唱 第9期",
+          "alertid": 11,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 211,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 949559,
+              "mid": "002iHA5S4LdDjr",
+              "name": "王以太"
+            }
+          ],
+          "size128": 3388219,
+          "size320": 8470185,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 45428588,
+          "sizeogg": 5284796,
+          "songid": 216985206,
+          "songmid": "002OnvaV2RHTPU",
+          "songname": "时间是金 (Live)",
+          "songorig": "时间是金",
+          "songtype": 0,
+          "strMediaMid": "002OnvaV2RHTPU",
+          "stream": 4,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4547966,
+          "albummid": "002GE7c404zbvo",
+          "albumname": "Egypt Station",
+          "alertid": 100002,
+          "belongCD": 4,
+          "cdIdx": 0,
+          "interval": 214,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 4032,
+              "mid": "000gBzCP1pH9wn",
+              "name": "Paul McCartney"
+            }
+          ],
+          "size128": 3427105,
+          "size320": 8567376,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5086205,
+          "songid": 216719236,
+          "songmid": "000Fa5oQ27D3lH",
+          "songname": "Happy With You",
+          "songorig": "Happy With You",
+          "songtype": 0,
+          "strMediaMid": "000wbAvx1wFsdX",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4571166,
+          "albummid": "0022Z4cE1dmGL8",
+          "albumname": "Want To",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 211,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1018405,
+              "mid": "0015cdSZ1a29mg",
+              "name": "Dua Lipa"
+            }
+          ],
+          "size128": 3390287,
+          "size320": 8475387,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5129170,
+          "songid": 216884619,
+          "songmid": "001DjR2z2rcwng",
+          "songname": "Want To",
+          "songorig": "Want To",
+          "songtype": 0,
+          "strMediaMid": "001DjR2z2rcwng",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4550640,
+          "albummid": "003uHU3K0RBmXc",
+          "albumname": "ZOO",
+          "alertid": 100002,
+          "belongCD": 2,
+          "cdIdx": 0,
+          "interval": 222,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1146756,
+              "mid": "004RR8l43Fy2dj",
+              "name": "Russ"
+            }
+          ],
+          "size128": 3559980,
+          "size320": 8899618,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 4702030,
+          "songid": 216741301,
+          "songmid": "004RDRhU2ew1sv",
+          "songname": "Outlaw (Explicit)",
+          "songorig": "Outlaw",
+          "songtype": 0,
+          "strMediaMid": "00179yXE0MGQwv",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585629,
+          "albummid": "003LqJnb2hrQkE",
+          "albumname": "中国音乐公告牌 第1期",
+          "alertid": 11,
+          "belongCD": 6,
+          "cdIdx": 0,
+          "interval": 235,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1016794,
+              "mid": "002nXp292LIOGV",
+              "name": "蔡徐坤"
+            }
+          ],
+          "size128": 3776531,
+          "size320": 9440923,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 24777395,
+          "sizeogg": 5459929,
+          "songid": 216979720,
+          "songmid": "001VwpmO1cwsva",
+          "songname": "WAIT WAIT WAIT (Live)",
+          "songorig": "WAIT WAIT WAIT",
+          "songtype": 0,
+          "strMediaMid": "001VwpmO1cwsva",
+          "stream": 9,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585629,
+          "albummid": "003LqJnb2hrQkE",
+          "albumname": "中国音乐公告牌 第1期",
+          "alertid": 11,
+          "belongCD": 5,
+          "cdIdx": 0,
+          "interval": 231,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 940748,
+              "mid": "004WgCsE3KBddt",
+              "name": "陈粒"
+            }
+          ],
+          "size128": 3705864,
+          "size320": 9264303,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 27634073,
+          "sizeogg": 4941954,
+          "songid": 216979724,
+          "songmid": "003YXimB3JpI8R",
+          "songname": "情景剧 (Live)",
+          "songorig": "情景剧",
+          "songtype": 0,
+          "strMediaMid": "003YXimB3JpI8R",
+          "stream": 9,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4375904,
+          "albummid": "000NmAVF1PsLF3",
+          "albumname": "Be Somebody",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 205,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 23142,
+              "mid": "003ihUzC1icy0O",
+              "name": "Steve Aoki"
+            },
+            {
+              "id": 53606,
+              "mid": "001ECmlF3REWp1",
+              "name": "Nicky Romero"
+            },
+            {
+              "id": 1012388,
+              "mid": "002Efd2S2BibFu",
+              "name": "Kiiara"
+            }
+          ],
+          "size128": 3293758,
+          "size320": 8233670,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5502442,
+          "songid": 215937752,
+          "songmid": "003zRnzI0SJM8o",
+          "songname": "Be Somebody",
+          "songorig": "Be Somebody",
+          "songtype": 0,
+          "strMediaMid": "0006Oifd496wxW",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4545537,
+          "albummid": "0039eluz0zUclJ",
+          "albumname": "Just Got Paid",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 218,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 760117,
+              "mid": "004G2kcg3BTXI2",
+              "name": "Sigala"
+            },
+            {
+              "id": 158598,
+              "mid": "001OeoEh1J6TME",
+              "name": "Ella Eyre"
+            },
+            {
+              "id": 34945,
+              "mid": "001Jo2n914cEZz",
+              "name": "Meghan Trainor"
+            },
+            {
+              "id": 28014,
+              "mid": "002pZx9U1Zwpv8",
+              "name": "French Montana"
+            }
+          ],
+          "size128": 3493124,
+          "size320": 8732452,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5712038,
+          "songid": 216690637,
+          "songmid": "004ZW2Wp4amfHk",
+          "songname": "Just Got Paid",
+          "songorig": "Just Got Paid",
+          "songtype": 0,
+          "strMediaMid": "000Pw02o1IifzD",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585299,
+          "albummid": "000wVyTW2GLdKG",
+          "albumname": "明日之子第二季 第11期",
+          "alertid": 100031,
+          "belongCD": 5,
+          "cdIdx": 0,
+          "interval": 237,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 13,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 1,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 481488
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2138275,
+              "mid": "000mU3c82mo0K1",
+              "name": "邓典"
+            }
+          ],
+          "size128": 3796135,
+          "size320": 0,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 0,
+          "songid": 216977735,
+          "songmid": "004dbTej2jzxcE",
+          "songname": "Broken People (Live)",
+          "songorig": "Broken People",
+          "songtype": 0,
+          "strMediaMid": "004dbTej2jzxcE",
+          "stream": 9,
+          "switch": 17405185,
+          "type": 0,
+          "vid": "k0027az1q3z"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585299,
+          "albummid": "000wVyTW2GLdKG",
+          "albumname": "明日之子第二季 第11期",
+          "alertid": 100031,
+          "belongCD": 8,
+          "cdIdx": 0,
+          "interval": 198,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 13,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 1,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 481488
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2173189,
+              "mid": "000fpfkg3JDop0",
+              "name": "田燚"
+            }
+          ],
+          "size128": 3178367,
+          "size320": 0,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 0,
+          "songid": 216977733,
+          "songmid": "0004mumN2En6kP",
+          "songname": "门 (Live)",
+          "songorig": "门",
+          "songtype": 0,
+          "strMediaMid": "0004mumN2En6kP",
+          "stream": 9,
+          "switch": 17405185,
+          "type": 0,
+          "vid": "o00279ty6bw"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4583722,
+          "albummid": "000mGPOW2s6Hg8",
+          "albumname": "Love Someone",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 205,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 55600,
+              "mid": "000YH1aW2ashnA",
+              "name": "Lukas Graham"
+            }
+          ],
+          "size128": 3289168,
+          "size320": 8222550,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 4264736,
+          "songid": 216968746,
+          "songmid": "001FkrWb3267m6",
+          "songname": "Love Someone",
+          "songorig": "Love Someone",
+          "songtype": 0,
+          "strMediaMid": "001FkrWb3267m6",
+          "stream": 2,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4522792,
+          "albummid": "003ngOhC3eFndM",
+          "albumname": "Back & Forth",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 196,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 28891,
+              "mid": "000Z5CoH0MCic5",
+              "name": "MK"
+            },
+            {
+              "id": 1081032,
+              "mid": "000qR6nq0uziaw",
+              "name": "Jonas Blue"
+            },
+            {
+              "id": 64555,
+              "mid": "002RUTM02f7WJA",
+              "name": "Becky Hill"
+            }
+          ],
+          "size128": 3140773,
+          "size320": 7851591,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 4867126,
+          "songid": 216499170,
+          "songmid": "002GpEpY2en085",
+          "songname": "Back & Forth",
+          "songorig": "Back & Forth",
+          "songtype": 0,
+          "strMediaMid": "001KM8VZ0u2tOL",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585254,
+          "albummid": "001yK5Tg39Uk00",
+          "albumname": "金曲捞第二季 第8期",
+          "alertid": 100002,
+          "belongCD": 5,
+          "cdIdx": 0,
+          "interval": 275,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 112,
+              "mid": "000hNnWC3kko2c",
+              "name": "蔡健雅"
+            }
+          ],
+          "size128": 4410947,
+          "size320": 11027032,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 33004566,
+          "sizeogg": 6052045,
+          "songid": 216977586,
+          "songmid": "001mkWCq3Mma87",
+          "songname": "十万毫升泪水 (Live)",
+          "songorig": "十万毫升泪水",
+          "songtype": 0,
+          "strMediaMid": "001mkWCq3Mma87",
+          "stream": 4,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585254,
+          "albummid": "001yK5Tg39Uk00",
+          "albumname": "金曲捞第二季 第8期",
+          "alertid": 100002,
+          "belongCD": 2,
+          "cdIdx": 0,
+          "interval": 299,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 4605,
+              "mid": "002LJqM93gNF52",
+              "name": "弦子"
+            }
+          ],
+          "size128": 4787960,
+          "size320": 11969143,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 36761029,
+          "sizeogg": 6381828,
+          "songid": 216977592,
+          "songmid": "003DIYFP3DDEQD",
+          "songname": "Beautiful Love (Live)",
+          "songorig": "Beautiful Love",
+          "songtype": 0,
+          "strMediaMid": "003DIYFP3DDEQD",
+          "stream": 4,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4552452,
+          "albummid": "004XwMPQ1bACPd",
+          "albumname": "Who’s Lovin You",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 216,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 65,
+              "mid": "0022mAua0xcjon",
+              "name": "苏芮"
+            }
+          ],
+          "size128": 3458434,
+          "size320": 8645725,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 22818280,
+          "sizeogg": 4648425,
+          "songid": 216759591,
+          "songmid": "002ertjx2UUoYz",
+          "songname": "Who's Lovin You",
+          "songorig": "Who's Lovin You",
+          "songtype": 0,
+          "strMediaMid": "002ertjx2UUoYz",
+          "stream": 2,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "《念念手纪》电影宣传推广曲",
+          "albumid": 4543461,
+          "albummid": "001AvwGZ4cLNS7",
+          "albumname": "偷不走的现在",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 253,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 67008,
+              "mid": "000poF8D027tPr",
+              "name": "于文文"
+            }
+          ],
+          "size128": 4061097,
+          "size320": 10152288,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 24523259,
+          "sizeogg": 5469892,
+          "songid": 216672304,
+          "songmid": "003YfC8n2nLDG3",
+          "songname": "偷不走的现在",
+          "songorig": "偷不走的现在",
+          "songtype": 0,
+          "strMediaMid": "002PO3eW2GISDp",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "i00279j3sa7"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585131,
+          "albummid": "000ABlDa3nePtR",
+          "albumname": "幻乐之城 第7期",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 453,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 13,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 1,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 960887
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 182,
+              "mid": "003bdcMg1ML7YC",
+              "name": "郑伊健"
+            }
+          ],
+          "size128": 7260165,
+          "size320": 18150091,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 45907819,
+          "sizeogg": 9808103,
+          "songid": 216976667,
+          "songmid": "000CBMrR1XBoJX",
+          "songname": "追风 (Live)",
+          "songorig": "追风",
+          "songtype": 0,
+          "strMediaMid": "000CBMrR1XBoJX",
+          "stream": 1,
+          "switch": 17405185,
+          "type": 0,
+          "vid": "i0027id87bx"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585131,
+          "albummid": "000ABlDa3nePtR",
+          "albumname": "幻乐之城 第7期",
+          "alertid": 100002,
+          "belongCD": 2,
+          "cdIdx": 0,
+          "interval": 808,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 13,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 1,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 960887
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1125003,
+              "mid": "0048Re331yFMdF",
+              "name": "张天爱"
+            }
+          ],
+          "size128": 12936470,
+          "size320": 32340852,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 73664563,
+          "sizeogg": 17979067,
+          "songid": 216976669,
+          "songmid": "003BPOdf2MporF",
+          "songname": "怂侠 (Live)",
+          "songorig": "怂侠",
+          "songtype": 0,
+          "strMediaMid": "003BPOdf2MporF",
+          "stream": 1,
+          "switch": 17405185,
+          "type": 0,
+          "vid": "o0027bcwtkn"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4559063,
+          "albummid": "0026TMrz1ydJgf",
+          "albumname": "Electricity",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 238,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1738889,
+              "mid": "001V4lY62w7LhP",
+              "name": "Silk City"
+            },
+            {
+              "id": 1018405,
+              "mid": "0015cdSZ1a29mg",
+              "name": "Dua Lipa"
+            },
+            {
+              "id": 45986,
+              "mid": "002fNsK82AEbQZ",
+              "name": "Diplo"
+            },
+            {
+              "id": 12135,
+              "mid": "003pmTzr2LXWMH",
+              "name": "Mark Ronson"
+            }
+          ],
+          "size128": 3812025,
+          "size320": 9529707,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5243284,
+          "songid": 216804620,
+          "songmid": "003g8O522BZ6Jk",
+          "songname": "Electricity",
+          "songorig": "Electricity",
+          "songtype": 0,
+          "strMediaMid": "003g8O522BZ6Jk",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "u0027rgplz8"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585481,
+          "albummid": "001qCR332JaxmJ",
+          "albumname": "I Love It (Explicit)",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 127,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 4839,
+              "mid": "0023MslA1UR6YR",
+              "name": "Kanye West"
+            },
+            {
+              "id": 1250922,
+              "mid": "000OTfMf3D7I0o",
+              "name": "Lil Pump"
+            }
+          ],
+          "size128": 2048252,
+          "size320": 5120252,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 2939797,
+          "songid": 216978272,
+          "songmid": "003c7uvF2wkvcB",
+          "songname": "I Love It (Explicit)",
+          "songorig": "I Love It",
+          "songtype": 0,
+          "strMediaMid": "002WhEJ51ymJ8U",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "q0027esgcdc"
+        },
+        {
+          "albumdesc": "From Home Alone ",
+          "albumid": 4544611,
+          "albummid": "0034GgJn1uUhRH",
+          "albumname": "Main Title From Home Alone (Somewhere In My Memory)",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 239,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 39797,
+              "mid": "001dmX1l2wJmrf",
+              "name": "Lindsey Stirling"
+            }
+          ],
+          "size128": 3839367,
+          "size320": 9597799,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5998387,
+          "songid": 216683346,
+          "songmid": "002YEh3s0Womdw",
+          "songname": "Somewhere In My Memory",
+          "songorig": "Somewhere In My Memory",
+          "songtype": 0,
+          "strMediaMid": "0038tUpO2OEE1R",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "《快乐大本营“不要说，唱”》 原创歌曲17",
+          "albumid": 4120700,
+          "albummid": "004NESAs1zKa95",
+          "albumname": "快乐大本营全新环节—不要说，唱",
+          "alertid": 100002,
+          "belongCD": 17,
+          "cdIdx": 0,
+          "interval": 135,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 19480,
+              "mid": "000x73QU0EhVwU",
+              "name": "张翰"
+            },
+            {
+              "id": 11831,
+              "mid": "002oHW0Y3nwqFm",
+              "name": "陈乔恩"
+            },
+            {
+              "id": 1107668,
+              "mid": "002YCMIU0CWSVT",
+              "name": "杜江"
+            },
+            {
+              "id": 1527880,
+              "mid": "002DUcL420R8i1",
+              "name": "程潇"
+            }
+          ],
+          "size128": 2165246,
+          "size320": 5412585,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 17248460,
+          "sizeogg": 3240738,
+          "songid": 216985250,
+          "songmid": "002WmezD2uHN4l",
+          "songname": "落地成团 (Live)",
+          "songorig": "落地成团",
+          "songtype": 0,
+          "strMediaMid": "001uuIvy1dQoPf",
+          "stream": 10,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4552894,
+          "albummid": "002nFFpA1YPi6r",
+          "albumname": "Kim Taylor: Songs for Moving Pictures",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 270,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 13,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 1,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 70833,
+              "mid": "001a571Z0hwSLK",
+              "name": "Kim Taylor"
+            }
+          ],
+          "size128": 4323663,
+          "size320": 10808718,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 54089914,
+          "sizeogg": 5772617,
+          "songid": 216764607,
+          "songmid": "002TvbrJ2wNJSP",
+          "songname": "The Hard Way",
+          "songorig": "The Hard Way",
+          "songtype": 0,
+          "strMediaMid": "002TvbrJ2wNJSP",
+          "stream": 0,
+          "switch": 17401089,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4060497,
+          "albummid": "0018PvTk05bDwo",
+          "albumname": "Pop It Off",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 151,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 173459,
+              "mid": "003UJOBU1fW068",
+              "name": "Henry Fong"
+            },
+            {
+              "id": 1307946,
+              "mid": "002cUf3r2XhaYC",
+              "name": "Vlien Boy"
+            },
+            {
+              "id": 1239985,
+              "mid": "0038er2D1LxJyH",
+              "name": "Lisa Mercedez"
+            },
+            {
+              "id": 23142,
+              "mid": "003ihUzC1icy0O",
+              "name": "Steve Aoki"
+            }
+          ],
+          "size128": 2431086,
+          "size320": 6077362,
+          "size5_1": 0,
+          "sizeape": 19561900,
+          "sizeflac": 19582877,
+          "sizeogg": 3654287,
+          "songid": 214016015,
+          "songmid": "000hUwml3GWFZG",
+          "songname": "Pop It Off",
+          "songorig": "Pop It Off",
+          "songtype": 0,
+          "strMediaMid": "0015shxr314PUI",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585618,
+          "albummid": "000xz4sw2fPuF7",
+          "albumname": "2018中国好声音 第8期",
+          "alertid": 100002,
+          "belongCD": 7,
+          "cdIdx": 0,
+          "interval": 294,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2094715,
+              "mid": "003lHxEB2GXgac",
+              "name": "张神儿"
+            }
+          ],
+          "size128": 4710634,
+          "size320": 11776234,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 33387070,
+          "sizeogg": 6183752,
+          "songid": 216979642,
+          "songmid": "000pzBje3pSYt7",
+          "songname": "大火 (Live)",
+          "songorig": "大火",
+          "songtype": 0,
+          "strMediaMid": "000pzBje3pSYt7",
+          "stream": 8,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585618,
+          "albummid": "000xz4sw2fPuF7",
+          "albumname": "2018中国好声音 第8期",
+          "alertid": 100002,
+          "belongCD": 8,
+          "cdIdx": 0,
+          "interval": 199,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2299752,
+              "mid": "001CtLVI3MvQcG",
+              "name": "刘郡格"
+            }
+          ],
+          "size128": 3198459,
+          "size320": 7995795,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 23317330,
+          "sizeogg": 4296058,
+          "songid": 216979643,
+          "songmid": "0032DSdL2BhcQd",
+          "songname": "作曲家 (Live)",
+          "songorig": "作曲家",
+          "songtype": 0,
+          "strMediaMid": "0032DSdL2BhcQd",
+          "stream": 8,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4550623,
+          "albummid": "000shUQn2GGdvW",
+          "albumname": "TRAVEL: NOAH",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 224,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2120290,
+              "mid": "004Hf56n3h8fUx",
+              "name": "HAON"
+            },
+            {
+              "id": 20580,
+              "mid": "003U7BIX1MRu8g",
+              "name": "박재범 (朴宰范)"
+            },
+            {
+              "id": 169257,
+              "mid": "003y4CYg2cltRb",
+              "name": "후디 (Hoody)"
+            }
+          ],
+          "size128": 3594285,
+          "size320": 8984807,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 50573430,
+          "sizeogg": 5616917,
+          "songid": 216741149,
+          "songmid": "000ExAMI3mSSyi",
+          "songname": "NOAH (Feat. 박재범, Hoody)",
+          "songorig": "NOAH (Feat. 박재범, Hoody)",
+          "songtype": 0,
+          "strMediaMid": "0033F2yo1tb3ju",
+          "stream": 3,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "z0027j8fth4"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4547525,
+          "albummid": "003x38r22j0XMa",
+          "albumname": "Mature",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 82,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 38037,
+              "mid": "002tULln0Ebnnb",
+              "name": "Team H"
+            }
+          ],
+          "size128": 1317619,
+          "size320": 3293730,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 1882974,
+          "songid": 216713486,
+          "songmid": "0032EihQ22FlXZ",
+          "songname": "Mature",
+          "songorig": "Mature",
+          "songtype": 0,
+          "strMediaMid": "0032EihQ22FlXZ",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4563687,
+          "albummid": "001lkGS53FeOR0",
+          "albumname": "潮音战纪 第9期",
+          "alertid": 100002,
+          "belongCD": 5,
+          "cdIdx": 0,
+          "interval": 326,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1507533,
+              "mid": "001MV5QZ36eIMo",
+              "name": "周震南"
+            },
+            {
+              "id": 1515888,
+              "mid": "000xV1hB4Sq0Vh",
+              "name": "Samuel (사무엘)"
+            }
+          ],
+          "size128": 5222186,
+          "size320": 13054666,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 37315142,
+          "sizeogg": 7030076,
+          "songid": 216832496,
+          "songmid": "0043rVdv0X5zSo",
+          "songname": "森林 (Live)",
+          "songorig": "森林",
+          "songtype": 0,
+          "strMediaMid": "0043rVdv0X5zSo",
+          "stream": 7,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4563687,
+          "albummid": "001lkGS53FeOR0",
+          "albumname": "潮音战纪 第9期",
+          "alertid": 100002,
+          "belongCD": 4,
+          "cdIdx": 0,
+          "interval": 314,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 200521,
+              "mid": "0022bqqN3dRfN4",
+              "name": "周兴哲"
+            },
+            {
+              "id": 1060976,
+              "mid": "003lLRuV2pqtct",
+              "name": "伍嘉成"
+            }
+          ],
+          "size128": 5039545,
+          "size320": 12598389,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 63052421,
+          "sizeogg": 6460348,
+          "songid": 216832494,
+          "songmid": "004XwOAu3EwHSj",
+          "songname": "终于了解自由 (Live)",
+          "songorig": "终于了解自由",
+          "songtype": 0,
+          "strMediaMid": "004XwOAu3EwHSj",
+          "stream": 7,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4522801,
+          "albummid": "003rxWTr1OM80c",
+          "albumname": "Nos Fuimos Lejos (Tropical Version)",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 288,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 182244,
+              "mid": "0034MxRj3ex2bD",
+              "name": "Descemer Bueno"
+            },
+            {
+              "id": 11593,
+              "mid": "004SBLbl1aKeWR",
+              "name": "Enrique Iglesias"
+            },
+            {
+              "id": 140702,
+              "mid": "003VNzQg18v4T4",
+              "name": "David Calzado y Su Charanga Habanera"
+            }
+          ],
+          "size128": 4617955,
+          "size320": 11544374,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 8043755,
+          "songid": 216499232,
+          "songmid": "0041QOOm3bRPMq",
+          "songname": "Nos Fuimos Lejos (Tropical Version)",
+          "songorig": "Nos Fuimos Lejos",
+          "songtype": 0,
+          "strMediaMid": "001o8DlJ2f6zym",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "v0027qa46lc"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4543289,
+          "albummid": "0042qOdW1D4eQ5",
+          "albumname": "This Is Love",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 191,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 22045,
+              "mid": "002xao6L3n9l4w",
+              "name": "Hardwell"
+            },
+            {
+              "id": 188158,
+              "mid": "003yBynv0lTmlS",
+              "name": "Kaaze"
+            },
+            {
+              "id": 70198,
+              "mid": "003lGUvr0OkBpA",
+              "name": "Loren Allred"
+            }
+          ],
+          "size128": 3060955,
+          "size320": 7652027,
+          "size5_1": 0,
+          "sizeape": 26691338,
+          "sizeflac": 26720568,
+          "sizeogg": 4693103,
+          "songid": 216671179,
+          "songmid": "0013aMWg1Mz8WV",
+          "songname": "This Is Love",
+          "songorig": "This Is Love",
+          "songtype": 0,
+          "strMediaMid": "000tFuNF0wx6s6",
+          "stream": 0,
+          "switch": 636675,
+          "type": 0,
+          "vid": "y0027ucy2kf"
+        },
+        {
+          "albumdesc": "《爱在星光里》陈少琪原创音乐剧主题曲",
+          "albumid": 4459864,
+          "albummid": "004NVj4k1mCG48",
+          "albumname": "不想想你",
+          "alertid": 11,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 265,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 6499,
+              "mid": "002azErJ0UcDN6",
+              "name": "张杰"
+            }
+          ],
+          "size128": 4254184,
+          "size320": 10635167,
+          "size5_1": 0,
+          "sizeape": 28535492,
+          "sizeflac": 28565401,
+          "sizeogg": 5776533,
+          "songid": 216327916,
+          "songmid": "001nqamR2r0lSD",
+          "songname": "不想想你",
+          "songorig": "不想想你",
+          "songtype": 0,
+          "strMediaMid": "001nqamR2r0lSD",
+          "stream": 4,
+          "switch": 605971,
+          "type": 0,
+          "vid": "o002755njt9"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4565090,
+          "albummid": "003MR97C0SjgBk",
+          "albumname": "2018围炉音乐会 第12期",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 307,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 138,
+              "mid": "0019iLuN2glWFi",
+              "name": "孙楠"
+            }
+          ],
+          "size128": 4919185,
+          "size320": 12297628,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 68225432,
+          "sizeogg": 6698900,
+          "songid": 216842307,
+          "songmid": "002FW8Pm2nYD1I",
+          "songname": "拯救 (Live)",
+          "songorig": "拯救",
+          "songtype": 0,
+          "strMediaMid": "002FW8Pm2nYD1I",
+          "stream": 2,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4450437,
+          "albummid": "000HSIGF1XxQj6",
+          "albumname": "蹦蹦蹦",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 218,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 7311,
+              "mid": "00489l610k75Z2",
+              "name": "梁心颐"
+            }
+          ],
+          "size128": 3505211,
+          "size320": 8762720,
+          "size5_1": 0,
+          "sizeape": 43005605,
+          "sizeflac": 42804848,
+          "sizeogg": 4807171,
+          "songid": 216305139,
+          "songmid": "001eNr2A0LlrKs",
+          "songname": "蹦蹦蹦",
+          "songorig": "蹦蹦蹦",
+          "songtype": 0,
+          "strMediaMid": "001eNr2A0LlrKs",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4568150,
+          "albummid": "0015b2U21oICaQ",
+          "albumname": "我是真的",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 253,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 192069,
+              "mid": "000HpvMn31rEkr",
+              "name": "董姿彦"
+            }
+          ],
+          "size128": 4057379,
+          "size320": 10142844,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5503795,
+          "songid": 216865230,
+          "songmid": "000q8C194Rb0vK",
+          "songname": "我是真的付出我的爱",
+          "songorig": "我是真的付出我的爱",
+          "songtype": 0,
+          "strMediaMid": "000q8C194Rb0vK",
+          "stream": 0,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4558279,
+          "albummid": "001Y7ucE0cLols",
+          "albumname": "Mad at You",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 226,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1286217,
+              "mid": "001v07wQ46Dhns",
+              "name": "Noah Cyrus"
+            },
+            {
+              "id": 1015685,
+              "mid": "0013IBpT0YC3gG",
+              "name": "Gallant"
+            }
+          ],
+          "size128": 3629375,
+          "size320": 9073085,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 4739377,
+          "songid": 216799679,
+          "songmid": "004Rad1x0mwvH3",
+          "songname": "Mad at You",
+          "songorig": "Mad at You",
+          "songtype": 0,
+          "strMediaMid": "00196K8u0le4Qv",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4384577,
+          "albummid": "003volix3Rhxoi",
+          "albumname": "Heey Ya",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 167,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 53602,
+              "mid": "001LLV184Lfy7Z",
+              "name": "Quintino"
+            }
+          ],
+          "size128": 2675576,
+          "size320": 6688612,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 3999040,
+          "songid": 215993109,
+          "songmid": "00249mU63ZmS0C",
+          "songname": "Heey Ya",
+          "songorig": "Heey Ya",
+          "songtype": 0,
+          "strMediaMid": "0019XfHw3OMfYa",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4390676,
+          "albummid": "000nQkxU1nnwRX",
+          "albumname": "In the Blue Light",
+          "alertid": 100002,
+          "belongCD": 4,
+          "cdIdx": 0,
+          "interval": 270,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1380,
+              "mid": "002e5uwe34RJ6W",
+              "name": "Paul Simon"
+            }
+          ],
+          "size128": 4325009,
+          "size320": 10811945,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 5879979,
+          "songid": 216974830,
+          "songmid": "000Kz7lW1jtPOq",
+          "songname": "How the Heart Approaches What It Yearns",
+          "songorig": "How the Heart Approaches What It Yearns",
+          "songtype": 0,
+          "strMediaMid": "000Kz7lW1jtPOq",
+          "stream": 0,
+          "switch": 17413891,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585544,
+          "albummid": "001MeUx51d1QTK",
+          "albumname": "这！就是歌唱·对唱季 第7期",
+          "alertid": 11,
+          "belongCD": 7,
+          "cdIdx": 0,
+          "interval": 242,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1275556,
+              "mid": "003NzfMe21zfem",
+              "name": "亚森"
+            },
+            {
+              "id": 1186528,
+              "mid": "000StoMC27Djrx",
+              "name": "张婉清"
+            }
+          ],
+          "size128": 3882686,
+          "size320": 9705828,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 50230290,
+          "sizeogg": 4973454,
+          "songid": 216979010,
+          "songmid": "001GG4NA1nS75y",
+          "songname": "Give Me One Reason + 一起摇摆 (Live)",
+          "songorig": "Give Me One Reason + 一起摇摆",
+          "songtype": 0,
+          "strMediaMid": "001GG4NA1nS75y",
+          "stream": 4,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585544,
+          "albummid": "001MeUx51d1QTK",
+          "albumname": "这！就是歌唱·对唱季 第7期",
+          "alertid": 11,
+          "belongCD": 2,
+          "cdIdx": 0,
+          "interval": 319,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 2241488,
+              "mid": "003RI3md299jSp",
+              "name": "杨腾飞"
+            },
+            {
+              "id": 91917,
+              "mid": "001kFjry4IkVsS",
+              "name": "孟慧圆"
+            }
+          ],
+          "size128": 5116046,
+          "size320": 12789777,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 64658595,
+          "sizeogg": 6742703,
+          "songid": 216979008,
+          "songmid": "000TXaRD2Ey0q1",
+          "songname": "紫 (Live)",
+          "songorig": "紫",
+          "songtype": 0,
+          "strMediaMid": "000TXaRD2Ey0q1",
+          "stream": 4,
+          "switch": 605971,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4583887,
+          "albummid": "0038d8DX02jbcW",
+          "albumname": "Riot (Lo Lo Loco)",
+          "alertid": 100002,
+          "belongCD": 2,
+          "cdIdx": 0,
+          "interval": 189,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1173986,
+              "mid": "001rc15h2NI9NU",
+              "name": "LVNDSCAPE"
+            },
+            {
+              "id": 167812,
+              "mid": "001grJOi0795TV",
+              "name": "Alida"
+            }
+          ],
+          "size128": 3034227,
+          "size320": 7585176,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 4122201,
+          "songid": 216969614,
+          "songmid": "001QKCWZ4WSHe0",
+          "songname": "Riot ( Lo Lo Loco)",
+          "songorig": "Riot",
+          "songtype": 0,
+          "strMediaMid": "001QKCWZ4WSHe0",
+          "stream": 7,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4584896,
+          "albummid": "00367SIT036zry",
+          "albumname": "SOBER (Clean)",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 116,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 170781,
+              "mid": "0029YpI01e0M0z",
+              "name": "Luke Christopher"
+            }
+          ],
+          "size128": 1867251,
+          "size320": 4667787,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 3178780,
+          "songid": 216975188,
+          "songmid": "0029R34U44Mb9Y",
+          "songname": "SOBER (Clean)",
+          "songorig": "SOBER",
+          "songtype": 0,
+          "strMediaMid": "0029R34U44Mb9Y",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585071,
+          "albummid": "001UOWPR2DL3AU",
+          "albumname": "Down Easy (Remixes / Pt.1)",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 167,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 30028,
+              "mid": "002iNUx40bEgFX",
+              "name": "Showtek"
+            },
+            {
+              "id": 161566,
+              "mid": "000RrGfE3bvXaJ",
+              "name": "MOTi"
+            },
+            {
+              "id": 1175962,
+              "mid": "004LSv6b3EXyYK",
+              "name": "Starley"
+            },
+            {
+              "id": 12246,
+              "mid": "0047NBei1wcwTk",
+              "name": "Wyclef Jean"
+            }
+          ],
+          "size128": 2680250,
+          "size320": 6700181,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 0,
+          "sizeogg": 4028595,
+          "songid": 216976329,
+          "songmid": "001HNFBr0XJh9t",
+          "songname": "Down Easy (Zonderling Remix)",
+          "songorig": "Down Easy",
+          "songtype": 0,
+          "strMediaMid": "001HNFBr0XJh9t",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4546597,
+          "albummid": "004OBtt23ZoOXb",
+          "albumname": "Lonely（广东合唱版）",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 179,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 43004,
+              "mid": "004T1lT91W9VVQ",
+              "name": "谭嘉仪"
+            },
+            {
+              "id": 5042,
+              "mid": "002Y8oJ20bheep",
+              "name": "关楚耀"
+            }
+          ],
+          "size128": 2866180,
+          "size320": 7165099,
+          "size5_1": 0,
+          "sizeape": 27544149,
+          "sizeflac": 27730583,
+          "sizeogg": 3473597,
+          "songid": 216707794,
+          "songmid": "003xMSVe3OTLsc",
+          "songname": "Lonely (广东合唱版)",
+          "songorig": "Lonely",
+          "songtype": 0,
+          "strMediaMid": "003xMSVe3OTLsc",
+          "stream": 7,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4585460,
+          "albummid": "003CyezD2GhQd0",
+          "albumname": "glow forever",
+          "alertid": 100002,
+          "belongCD": 12,
+          "cdIdx": 0,
+          "interval": 147,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 13012,
+              "mid": "004AftgU0P5T4k",
+              "name": "더 콰이엇 (The Quiett)"
+            },
+            {
+              "id": 2213470,
+              "mid": "001kNJVY4PMHSk",
+              "name": "Byung Un"
+            }
+          ],
+          "size128": 2364191,
+          "size320": 5910157,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 12730800,
+          "sizeogg": 2705786,
+          "songid": 216978220,
+          "songmid": "004IkuKM3GERsr",
+          "songname": "way back home (Feat. Byung Un)",
+          "songorig": "way back home (Feat. Byung Un)",
+          "songtype": 0,
+          "strMediaMid": "004IkuKM3GERsr",
+          "stream": 10,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4551418,
+          "albummid": "001Okkqy1Z3weD",
+          "albumname": "Ninja Turtle",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 192,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 982358,
+              "mid": "003V5m2N1hExKc",
+              "name": "Keith Ape (李东贤)"
+            },
+            {
+              "id": 1397894,
+              "mid": "001AWyaO2cBmJ2",
+              "name": "Wifisfuneral"
+            }
+          ],
+          "size128": 3076471,
+          "size320": 7690539,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 40730211,
+          "sizeogg": 4480253,
+          "songid": 216748224,
+          "songmid": "0005zne21OtKSS",
+          "songname": "Ninja Turtle (CLEAN)",
+          "songorig": "Ninja Turtle",
+          "songtype": 0,
+          "strMediaMid": "0005zne21OtKSS",
+          "stream": 8,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "《小河狸贝瓦》动画插曲",
+          "albumid": 3964682,
+          "albummid": "003OHqFN2BywyD",
+          "albumname": "小河狸贝瓦",
+          "alertid": 11,
+          "belongCD": 17,
+          "cdIdx": 0,
+          "interval": 119,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 4733,
+              "mid": "002cUt1w0pizR1",
+              "name": "后弦"
+            }
+          ],
+          "size128": 1912781,
+          "size320": 4781653,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 11719202,
+          "sizeogg": 2552035,
+          "songid": 216921740,
+          "songmid": "003aMlEr2KtczV",
+          "songname": "美食总动员",
+          "songorig": "美食总动员",
+          "songtype": 0,
+          "strMediaMid": "003aMlEr2KtczV",
+          "stream": 2,
+          "switch": 601875,
+          "type": 0,
+          "vid": "r0027wlth52"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4546721,
+          "albummid": "0046fNYu32For1",
+          "albumname": "WINNER JAPAN TOUR 2018 ~We'll always be young~",
+          "alertid": 11,
+          "belongCD": 14,
+          "cdIdx": 0,
+          "interval": 209,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 178578,
+              "mid": "000ILl674858TZ",
+              "name": "WINNER (위너)"
+            }
+          ],
+          "size128": 3346585,
+          "size320": 8365857,
+          "size5_1": 0,
+          "sizeape": 26842938,
+          "sizeflac": 26804657,
+          "sizeogg": 5039222,
+          "songid": 216710196,
+          "songmid": "00478ZY22A0RIP",
+          "songname": "EVERYDAY (WINNER JAPAN TOUR 2018 ~We'll always be young~)",
+          "songorig": "EVERYDAY",
+          "songtype": 0,
+          "strMediaMid": "00478ZY22A0RIP",
+          "stream": 0,
+          "switch": 601875,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4552879,
+          "albummid": "001MSx9r4CwUkh",
+          "albumname": "再见Hip-Hop",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 240,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 89,
+              "mid": "003gA4Y334rnOf",
+              "name": "张震岳"
+            },
+            {
+              "id": 4,
+              "mid": "0023JlKC41RuGV",
+              "name": "MC HotDog"
+            },
+            {
+              "id": 1129456,
+              "mid": "003uHVUN01jaNt",
+              "name": "功夫胖"
+            },
+            {
+              "id": 1178743,
+              "mid": "002aAQMU1ukNTH",
+              "name": "派克特"
+            }
+          ],
+          "size128": 3841262,
+          "size320": 9602830,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 50351969,
+          "sizeogg": 5594718,
+          "songid": 216764576,
+          "songmid": "003zcr2R3qSZib",
+          "songname": "再见Hip-Hop",
+          "songorig": "再见Hip-Hop",
+          "songtype": 0,
+          "strMediaMid": "003zcr2R3qSZib",
+          "stream": 9,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "h0027lxasox"
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4553449,
+          "albummid": "000i5Gdc3KlC0d",
+          "albumname": "通过验证",
+          "alertid": 11,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 217,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 0,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 0,
+            "payinfo": 0,
+            "payplay": 0,
+            "paytrackmouth": 0,
+            "paytrackprice": 0,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 944658,
+              "mid": "0027W3Jw0PYnHt",
+              "name": "艾福杰尼"
+            }
+          ],
+          "size128": 3488905,
+          "size320": 8721963,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 46952337,
+          "sizeogg": 4721711,
+          "songid": 216768776,
+          "songmid": "000m91My1vaWe1",
+          "songname": "通过验证",
+          "songorig": "通过验证",
+          "songtype": 0,
+          "strMediaMid": "001Bz7Iz4EqUj5",
+          "stream": 0,
+          "switch": 601875,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4563417,
+          "albummid": "001Bs9bL3mUk0h",
+          "albumname": "叶雪",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 314,
+          "isonly": 1,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 31035,
+              "mid": "003U6coz1AhN3H",
+              "name": "简弘亦"
+            }
+          ],
+          "size128": 5037018,
+          "size320": 12592091,
+          "size5_1": 0,
+          "sizeape": 0,
+          "sizeflac": 33115261,
+          "sizeogg": 6768325,
+          "songid": 216829879,
+          "songmid": "002K8HEt2Ng0f4",
+          "songname": "叶雪",
+          "songorig": "叶雪",
+          "songtype": 0,
+          "strMediaMid": "002K8HEt2Ng0f4",
+          "stream": 7,
+          "switch": 17409795,
+          "type": 0,
+          "vid": ""
+        },
+        {
+          "albumdesc": "",
+          "albumid": 4526937,
+          "albummid": "000ITDOO3xnxPF",
+          "albumname": "We Go Up - The 2nd Mini Album",
+          "alertid": 100002,
+          "belongCD": 1,
+          "cdIdx": 0,
+          "interval": 183,
+          "isonly": 0,
+          "label": "0",
+          "msgid": 14,
+          "pay": {
+            "payalbum": 0,
+            "payalbumprice": 0,
+            "paydownload": 1,
+            "payinfo": 1,
+            "payplay": 0,
+            "paytrackmouth": 1,
+            "paytrackprice": 200,
+            "timefree": 0
+          },
+          "preview": {
+            "trybegin": 0,
+            "tryend": 0,
+            "trysize": 0
+          },
+          "rate": 0,
+          "singer": [
+            {
+              "id": 1221053,
+              "mid": "004cyCLc1ByKPx",
+              "name": "NCT DREAM (엔시티 드림)"
+            }
+          ],
+          "size128": 2933923,
+          "size320": 7334406,
+          "size5_1": 0,
+          "sizeape": 22387040,
+          "sizeflac": 22481252,
+          "sizeogg": 4410331,
+          "songid": 216527577,
+          "songmid": "002Pot050fIh3w",
+          "songname": "We Go Up (Korea ver.)",
+          "songorig": "We Go Up",
+          "songtype": 0,
+          "strMediaMid": "002Pot050fIh3w",
+          "stream": 0,
+          "switch": 17409795,
+          "type": 0,
+          "vid": "k0027376mc2"
+        }
+      ],
+      "visitnum": 1916,
+      "cmtnum": 0,
+      "buynum": 0,
+      "scoreavage": "0.0",
+      "scoreusercount": 0
+    }
+  ],
+  "realcdnum": 1
+}
