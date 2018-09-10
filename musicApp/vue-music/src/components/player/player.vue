@@ -57,7 +57,7 @@
               <i class="icon-next" @click="next"></i>
             </div>
             <div class="icon i-right">
-              <i class="icon icon-not-favorite"></i>
+              <i class="icon" :class="getFavoriteIcon(currentSong)" @click="toggleFavorite(currentSong)"></i>
             </div>
           </div>
         </div>
@@ -77,32 +77,33 @@
             <i :class="miniIcon" @click.stop="togglePlaying" class="icon-mini"></i>
           </progress-circle>
         </div>
-        <div class="control">
+        <div class="control" @click.stop="showPlayList">
           <i class="icon-playlist"></i>
         </div>
       </div>
     </transition>
-    <playlist></playlist>
+    <playlist ref="playlist"></playlist>
     <audio :src="currentSong.url" ref="audio" @canplay="ready" @error="error" @timeupdate="updateTime" @ended="end"></audio>
   </div>
 </template>
 
 <script>
-import { mapGetters, mapMutations } from 'vuex'
+import { mapGetters, mapMutations, mapActions } from 'vuex'
 import animations from 'create-keyframe-animation'
 import { prefixStyle } from 'common/js/dom'
 import ProgressBar from 'base/progress-bar/progress-bar'
 import ProgressCircle from 'base/progress-circle/progress-circle'
 import { playMode } from 'common/js/config'
-import { shuffle } from 'common/js/util'
 import Lyric from 'lyric-parser'
 import Scroll from 'base/scroll/scroll'
 import Playlist from 'components/playlist/playlist'
+import { playerMixin } from 'common/js/mixin'
 
 const transform = prefixStyle('transform')
 const transitionDuration = prefixStyle('transitionDuration')
 
 export default {
+  mixins: [playerMixin],
   data() {
     return {
       // 歌曲标志位
@@ -126,11 +127,6 @@ export default {
     this.touch = {}
   },
   computed: {
-    iconMode() {
-      return this.mode === playMode.sequence
-        ? 'icon-sequence'
-        : this.mode === playMode.loop ? 'icon-loop' : 'icon-random'
-    },
     percent() {
       return this.currentTime / this.currentSong.duration
     },
@@ -146,24 +142,16 @@ export default {
     disablecls() {
       return this.songReady ? '' : 'disable'
     },
-    ...mapGetters([
-      'fullScreen',
-      'playList',
-      'currentSong',
-      'playing',
-      'currentIndex',
-      'mode',
-      'sequenceList'
-    ])
+    ...mapGetters(['fullScreen', 'playing', 'currentIndex'])
   },
   methods: {
     ...mapMutations({
-      setFullScreen: 'SET_FULL_SCREEN',
-      setPlayingState: 'SET_PLAYING_STATE',
-      setCurrentIndex: 'SET_CURREN_INDEX',
-      setPlayMode: 'SET_PLAY_MODE',
-      setPlayList: 'SET_PLAYLIST'
+      setFullScreen: 'SET_FULL_SCREEN'
     }),
+    ...mapActions(['savePlayHistory']),
+    showPlayList() {
+      this.$refs.playlist.show()
+    },
     middleTouchStart(e) {
       this.touch.initiated = true
       const touch = e.touches[0]
@@ -220,25 +208,6 @@ export default {
         this.$refs.middleL.style.opacity = opacity
         this.$refs.middleL.style[transitionDuration] = `${time}ms`
       }
-    },
-    changeMode() {
-      const mode = (this.mode + 1) % 3
-      this.setPlayMode(mode)
-      let list = null
-      if (mode === playMode.random) {
-        list = shuffle(this.sequenceList)
-      } else {
-        list = this.sequenceList
-      }
-      // 改变播放顺序 修改 curentIndex 保证 sing.id 不变
-      this.resetCurrentIndex(list)
-      this.setPlayList(list)
-    },
-    resetCurrentIndex(list) {
-      let index = list.findIndex(item => {
-        return item.id === this.currentSong.id
-      })
-      this.setCurrentIndex(index)
     },
     back() {
       this.setFullScreen(false)
@@ -316,6 +285,7 @@ export default {
       // }
       if (this.playList.length === 1) {
         this.loop()
+        return
       } else {
         let index = this.currentIndex - 1
         if (index === -1) {
@@ -334,6 +304,7 @@ export default {
       }
       if (this.playList.length === 1) {
         this.loop()
+        return
       } else {
         let index = this.currentIndex + 1
         if (index === this.playList.length) {
@@ -347,7 +318,9 @@ export default {
       this.songReady = false
     },
     ready() {
+      console.log('ready')
       this.songReady = true
+      this.savePlayHistory(this.currentSong)
     },
     error() {
       this.songReady = true
@@ -389,6 +362,7 @@ export default {
       this.currentSong
         .getLyric()
         .then(lyric => {
+          // if (this.currentSong.lyric !== lyric) {return}
           this.currentLyric = new Lyric(lyric, this.handleLyric)
           if (this.playing) {
             this.currentLyric.play()
@@ -422,14 +396,21 @@ export default {
   },
   watch: {
     currentSong(newSong, oldSong) {
+      if (!newSong.id) {
+        return
+      }
       if (newSong.id === oldSong.id) {
         return
       }
+      // 歌曲连接报错
+      this.savePlayHistory(this.currentSong)
       if (this.currentLyric) {
         this.currentLyric.stop()
       }
+      // 快速点击的问题
+      clearTimeout(this.timer)
       // 保证移动端 微信切换重新播放
-      setTimeout(() => {
+      this.timer = setTimeout(() => {
         this.$refs.audio.play()
         this.getLyric()
       }, 1000)
