@@ -84,6 +84,7 @@
     </transition>
     <playlist ref="playlist"></playlist>
     <audio :src="currentSong.url" ref="audio" @canplay="ready" @error="error" @timeupdate="updateTime" @ended="end"></audio>
+    <!-- <audio src="/static/毛不易-牧马城市.mp3" ref="audio" @canplay="ready" @error="error" @timeupdate="updateTime" @ended="end"></audio> -->
   </div>
 </template>
 
@@ -271,6 +272,7 @@ export default {
       }
     },
     togglePlaying() {
+      console.log('togglePlaying')
       if (!this.songReady) {
         return
       }
@@ -280,9 +282,10 @@ export default {
       }
     },
     prev() {
-      // if (!this.songReady) {
-      //   return
-      // }
+      console.log('prev')
+      if (!this.songReady) {
+        return
+      }
       if (this.playList.length === 1) {
         this.loop()
         return
@@ -299,6 +302,7 @@ export default {
       this.songReady = false
     },
     next() {
+      console.log('next')
       if (!this.songReady) {
         return
       }
