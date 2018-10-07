@@ -7,6 +7,7 @@ import fastclick from 'fastclick'
 import axios from 'axios'
 import VueLazyload from 'vue-lazyload'
 
+import 'api/vconsole'
 import 'common/stylus/index.styl'
 
 Vue.prototype.$axios = axios
