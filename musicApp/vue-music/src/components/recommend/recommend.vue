@@ -80,7 +80,7 @@ export default {
       })
     },
     _getDiscList() {
-      this.$axios.get('http://localhost:8080/static/list.json').then(res => {
+      this.$axios.get('/static/list.json').then(res => {
         if (res.data.code === ERR_OK) {
           this.disclist = res.data.data.list
         }
