@@ -43,7 +43,7 @@ export default {
         this.$router.push('/recommend')
         return
       }
-      this.axios.get('http://localhost:8080/static/cdlist.json').then(res => {
+      this.$axios.get('/static/cdlist.json').then(res => {
         if (res.data.code === ERR_OK) {
           this.songs = this._normalizeSongs(res.data.cdlist[0].songlist)
         }
