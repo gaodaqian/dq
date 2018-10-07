@@ -41,7 +41,7 @@ import axios from 'axios'
 // }
 
 export function getLyric(mid) {
-  const url = 'http://localhost:8080/static/lyric.json'
+  const url = '/static/lyric.json'
   const data = Object.assign({}, commonParams, {
     songmid: mid,
     pcachetime: +new Date(),
