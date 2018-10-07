@@ -88,7 +88,7 @@ export default {
       this.page = 1
       this.$refs.suggest.scrollTo(0, 0)
       this.hasMore = true
-      this.$axios.get('http://localhost:8080/static/search.json').then(res => {
+      this.$axios.get('/static/search.json').then(res => {
         if (res.data.code === ERR_OK) {
           this.result = this._genResult(res.data.data)
           this._checkMore(res.data.data)
@@ -109,7 +109,7 @@ export default {
         return
       }
       this.page++
-      this.$axios.get('http://localhost:8080/static/search2.json').then(res => {
+      this.$axios.get('/static/search2.json').then(res => {
         if (res.data.code === ERR_OK) {
           this.result = this.result.concat(this._genResult(res.data.data))
           // this._checkMore(res.data.data)
