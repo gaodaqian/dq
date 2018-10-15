@@ -10,43 +10,43 @@ const Recommend = (resolve) => {
 }
 
 const Singer = (resolve) => {
-  import('components/singer/singer').then((module) => {
+  import(/* webpackChunkName: 'singer' */'components/singer/singer').then((module) => {
     resolve(module)
   })
 }
 
 const Rank = (resolve) => {
-  import('components/rank/rank').then((module) => {
+  import(/* webpackChunkName: 'rank' */'components/rank/rank').then((module) => {
     resolve(module)
   })
 }
 
 const Search = (resolve) => {
-  import('components/search/search').then((module) => {
+  import(/* webpackChunkName: 'search' */'components/search/search').then((module) => {
     resolve(module)
   })
 }
 
 const SingerDetail = (resolve) => {
-  import('components/singer-detail/singer-detail').then((module) => {
+  import(/* webpackChunkName: 'singer_detail' */'components/singer-detail/singer-detail').then((module) => {
     resolve(module)
   })
 }
 
 const Disc = (resolve) => {
-  import('components/disc/disc').then((module) => {
+  import(/* webpackChunkName: 'disc' */'components/disc/disc').then((module) => {
     resolve(module)
   })
 }
 
 const TopList = (resolve) => {
-  import('components/top-list/top-list').then((module) => {
+  import(/* webpackChunkName: 'list' */'components/top-list/top-list').then((module) => {
     resolve(module)
   })
 }
 
 const UserCenter = (resolve) => {
-  import('components/user-center/user-center').then((module) => {
+  import(/* webpackChunkName: 'user' */'components/user-center/user-center').then((module) => {
     resolve(module)
   })
 }

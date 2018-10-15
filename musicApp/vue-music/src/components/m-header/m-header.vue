@@ -29,7 +29,8 @@ export default {}
     height: 32px;
     margin-right: 9px;
     bg-image('doughnut');
-    background-size: 30px 32px;
+    background-size: 110px 32px;
+    background-repeat: no-repeat;
   }
 
   .text {
