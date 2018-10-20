@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <input type="text" v-model="title">
+    <button @click="add">submit</button>
+    <ul>
+      <li v-for="item in list">{{item}}</li>
+    </ul>
+  </div>
+  <script src="https://cdn.bootcss.com/vue/2.5.16/vue.js"></script>
+  <script>
+    var vm = new Vue({
+      el: '#app',
+      data: {
+        title: '',
+        list: []
+      },
+      methods: {
+        add() {
+          this.list.push(this.title)
+          this.title = ''
+        }
+      }
+    })
+
+  </script>
+</body>
+
+</html>
