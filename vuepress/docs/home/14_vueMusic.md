@@ -1,6 +1,29 @@
-# vueMucic
+# vueMusic
 
 ## vue cli
+
+推荐页(轮播图) 推荐歌单列表 歌单详情页(图片，歌单列表) 歌手页面 歌手详情页 播放器内核 搜索页面 排行榜 歌曲列表 用户中心页...
+
+vue vuex vue-router axios jsonp
+
+第三方插件 better-scroll v-lazyload animation loading jsonp
+
+滚动位置自适应高度 mixin抽象 动画 高斯模糊 节流 播放器动画
+
+歌手列表 滑动 类通讯录组件的实现 左右联动 索引 头像懒加载
+
+```js
+debounce 函数所做的事情就是，强制一个函数在某个连续时间段内只执行一次，哪怕它本来会被调用多次。
+this.$watch(
+      'query',
+      debounce(newQuery => {
+        this.$emit('query', newQuery)
+      }, 200)
+    )
+debounce 函数接收两个参数，第一个是要“去弹跳”的回调函数 fn，第二个是延迟的时间 delay。
+debounce(去抖) 强制函数在某段时间内只执行一次，将一个连续的调用归为一个！输入停止之后再执行的行为
+throttle(节流) 强制函数以固定的速率执行
+```
 
 ```shell
 npm install stylus stylus-loader --save-dev
@@ -216,3 +239,11 @@ export default new Router({
     }
   ]
 ```
+
+## 移动端调试 抓包
+
+### Vconsole 手机上的控制台
+
+`https://github.com/Tencent/vConsole`
+
+## charles
